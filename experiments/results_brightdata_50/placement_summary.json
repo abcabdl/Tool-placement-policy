@@ -1,0 +1,35 @@
+[
+  {
+    "placement": "full",
+    "runs": 50,
+    "gold_in_prompt_rate": 1.0,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.7,
+    "argument_exact": 0.74,
+    "both_exact": 0.68,
+    "avg_prompt_chars": 15480.1,
+    "avg_latency_sec": 2.083949613571167
+  },
+  {
+    "placement": "compact",
+    "runs": 50,
+    "gold_in_prompt_rate": 1.0,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.6,
+    "argument_exact": 0.74,
+    "both_exact": 0.6,
+    "avg_prompt_chars": 7925.76,
+    "avg_latency_sec": 1.9856047868728637
+  },
+  {
+    "placement": "retrieval",
+    "runs": 50,
+    "gold_in_prompt_rate": 0.4,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.38,
+    "argument_exact": 0.6,
+    "both_exact": 0.38,
+    "avg_prompt_chars": 2067.9,
+    "avg_latency_sec": 1.933106417655945
+  }
+]

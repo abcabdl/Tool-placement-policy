@@ -1,0 +1,17 @@
+pandas
+pyarrow
+openpyxl
+
+# SWIFT 3.x is required. AgentVocab uses APIs that are not available in SWIFT 4.x.
+ms-swift[all]==3.12.6
+
+# vLLM backend for SWIFT Native evaluation.
+vllm>=0.5.1,<0.11.1
+
+# FlashAttention backend used by the training examples.
+# If installation fails, install the wheel matching your CUDA/PyTorch environment.
+flash-attn
+
+# Benchmarks used in the paper.
+git+https://github.com/sierra-research/tau-bench
+git+https://github.com/sierra-research/tau2-bench@v0.2.0

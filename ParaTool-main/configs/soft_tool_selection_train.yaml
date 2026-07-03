@@ -1,0 +1,28 @@
+secrets_file: null
+openai_config: null
+
+env:
+  HF_HOME: null
+  TRANSFORMERS_CACHE: null
+  CUDA_VISIBLE_DEVICES: null
+  # When q_encoder is bge, gating_network reads BGE weights from this directory if set (else built-in default).
+  BGE_QENC_MODEL_PATH: null
+
+eval_model: null
+
+openai: null
+
+dataset: null
+category: null
+model_name: null
+run_tag: null
+
+learning_rate: null
+num_epochs: null
+entropy_reg_weight: null
+hidden_dim: null
+
+# Question encoder for gating: llm (base model mean-pool) or bge (local sentence encoder).
+q_encoder: null
+# Optional override for BGE directory; not written into checkpoints (see env.BGE_QENC_MODEL_PATH).
+bge_model_path: null

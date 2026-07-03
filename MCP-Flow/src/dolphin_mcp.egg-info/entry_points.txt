@@ -1,0 +1,2 @@
+[console_scripts]
+dolphin-mcp-cli = dolphin_mcp.cli:main

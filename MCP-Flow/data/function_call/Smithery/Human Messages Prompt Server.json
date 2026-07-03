@@ -1,0 +1,167 @@
+[
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": "Develop a succinct yet compelling message tailored specifically for a chosen communication platform, such as Twitter, while seamlessly integrating a nuanced and strategic call-to-action aimed at fostering meaningful audience engagement and interaction.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": ": Write a personalized message that fits the communication style of Twitter.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Join our dynamic and ever-evolving community today! Collaborate to exchange innovative ideas, uncover valuable insights, and stay updated on cutting-edge developments. Don't miss out on being part of something extraordinary!"
+      }
+    },
+    "source_instruction": "Compose an intricate and captivating tweet that motivates individuals to join our dynamic and ever-evolving community, fostering collaboration to exchange innovative ideas, uncover valuable insights, and stay consistently updated on the most recent developments!",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": "Craft a precise, compelling, and emotionally resonant message tailored for sharing on Twitter, ensuring it captivates the intended audience while accounting for platform-specific character limitations and incorporating multi-faceted audience psychology for maximum engagement.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": "Compose an attention-grabbing, succinct social media post tailored for viral traction on X (formerly Twitter), balancing wit, emotion, and relatability while adhering strictly to the character limit and maximizing shareability.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": "Generate a dynamic message formatted for efficient sharing via Twitter.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "🌍 Join our inclusive community for exciting updates, discussions, and growth opportunities! Be part of the action today—let's thrive together! 🚀"
+      }
+    },
+    "source_instruction": "Craft a succinct and captivating message, adhering to Twitter's character limit, that invites people to \"Join our community for exciting updates and discussions!\" while emphasizing inclusivity to appeal to diverse audiences and integrating a compelling call-to-action for maximum engagement.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Compose a uniquely tailored message adhering to the concise and dynamic communication style characteristic of Twitter posts, while incorporating a clever wordplay or pun."
+      }
+    },
+    "source_instruction": ": Compose a uniquely tailored message adhering to the concise and dynamic communication style characteristic of Twitter posts, while incorporating a clever wordplay or pun.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Join our community for exciting updates and discussions!"
+      }
+    },
+    "source_instruction": "Design a concise and clear text saying \"Join our community for exciting updates and discussions!\" suitable for distribution on Twitter.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Draft a concise and captivating post tailored for seamless sharing on social media platforms with strict character constraints, ensuring it balances creativity and clarity while considering audience engagement strategies."
+      }
+    },
+    "source_instruction": "Draft a concise and captivating post tailored for seamless sharing on social media platforms with strict character constraints, ensuring it balances creativity and clarity while considering audience engagement strategies.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Create a succinct yet impactful personalized message aligned with tone, brevity, conversational style, and strategic emotional appeal, ensuring it resonates effectively with the audience."
+      }
+    },
+    "source_instruction": "Create a succinct yet impactful personalized message aligned with the tone, brevity, conversational style, and strategic emotional appeal characteristic of Twitter, ensuring it effectively resonates with and engages the intended audience.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "other",
+        "message": "Craft a succinct and captivating announcement intricately designed for optimal visual appeal and persuasive impact on a high-definition electronic billboard."
+      }
+    },
+    "source_instruction": "Craft a succinct and captivating announcement intricately designed for optimal visual appeal and persuasive impact on a high-definition electronic billboard.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "other",
+        "message": "Craft a concise, captivating announcement tailored to resonate with users of a niche social media platform, reflecting its unique culture and user interests."
+      }
+    },
+    "source_instruction": "Craft a concise, captivating announcement specifically designed to resonate with users of a niche social media platform, ensuring it reflects the platform's unique culture and user interests.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": ""
+      }
+    },
+    "source_instruction": "Craft a human-readable message optimized for sharing through Twitter.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  },
+  {
+    "function_call": {
+      "name": "human-message-prompt-mcp_human-messages-prompts",
+      "arguments": {
+        "platform": "twitter",
+        "message": "Compose a brief, engaging message tailored for your audience."
+      }
+    },
+    "source_instruction": "Compose a brief, engaging message tailored for delivery on a specific communication platform such as Twitter.",
+    "tool": "human-message-prompt-mcp_human-messages-prompts"
+  }
+]

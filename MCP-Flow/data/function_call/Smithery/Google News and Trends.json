@@ -1,0 +1,1319 @@
+[
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 5,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Determine, examine in detail, and critically evaluate the top 5 most pivotal and influential events or stories from the preceding 3 days, providing succinct yet analytically rich summaries that highlight essential details, deeper context, interconnected developments, and potential long-term implications.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify and summarize recent developments in the media related to \"artificial intelligence\" for research purposes, looking back 7 days with a maximum of 10 results.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "TENNIS",
+        "period": 3,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and synthesize recent articles covering TENNIS events or news from the past 3 days, requiring both concise summaries of each and a deeper exploration of key details and the broader implications within contemporary sports narratives.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "climate change",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather and meticulously analyze a diverse range of recent articles and studies addressing climate change, pinpoint key recurring themes, emerging trends, and anomalous data points, then synthesize an in-depth yet concise summary alongside significant highlights and a thorough exploration of their broader socioeconomic and ecological implications.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "ENVIRONMENT",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Search for the latest developments in ENVIRONMENT over the past 7 days and provide summarized highlights of key articles.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate and synthesize information from recent press releases, public statements, or announcements made by organizations, officials, or institutions based in New York within the last seven days, and deliver clear, insightful overviews that highlight key takeaways and implications.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "VIRTUAL REALITY",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Find and summarize recent articles discussing innovations in VIRTUAL REALITY, retrieving up to 10 relevant pieces of information.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Investigate the most popular search trends in the US to stay updated and relevant in that region's digital landscape.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Retrieve a list of the most important news stories from the past few days, focusing on concise summaries for better readability.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 5,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Extract and identify the top 5 stories from the past three days, then analyze their context, significance, and implications while ensuring all summaries include potential ethical considerations and diverse perspectives along with the most critical details and overarching themes.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify and summarize articles detailing notable events and developments in New York City, requiring you to assess their significance, prioritize relevance, and evaluate their societal impact while ensuring coverage of key narratives from the past 7 days.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Examine and interpret the leading cultural micro-movements gaining traction across digital platforms in the United States, exploring how these niche phenomena reveal shifting priorities and underlying narratives within modern societal dynamics.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "ENVIRONMENT",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Explore recent advancements and notable innovations in SUSTAINABILITY introduced within the past week, emphasizing developments in renewable energy, waste reduction technologies, and eco-friendly materials; additionally, assess their scalability and feasibility for widespread adoption in alignment with global environmental targets.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 5,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Determine the 5 most consequential and extensively debated news events from the previous 72 hours, thoroughly examine their broader context and societal relevance, and develop precise yet thought-provoking summaries that highlight critical elements and delve into their deeper ramifications.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": ": Examine the presently trending search queries originating specifically from various regions within the United States to develop tailored localized digital content for a distinct target audience, ensuring the material resonates with intricate regional cultural subtleties and specific demographic preferences.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Investigate the evolving online behaviors and content preferences within the US over the past quarter, highlighting notable shifts in user engagement across platforms and predicting potential future digital trends.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile a carefully selected list of the most impactful geopolitical, economic, and scientific news events from the last few days, providing succinct summaries for clarity and including a focused analysis of their probable worldwide implications.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile and evaluate 10 varied opinion pieces published in the last 72 hours across different platforms, employing advanced contextual breakdown methods to uncover underlying biases, implications, and cross-sectional societal impacts, while maintaining the integrity of the authors' perspectives.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and extract articles discussing significant events occurring in New York City within the past 7 days, placing particular emphasis on the most impactful ones, while also categorizing them based on their societal, cultural, and economic significance.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "TENNIS",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Locate and analyze recent articles published within the last 3 days that discuss TENNIS events, updates, or noteworthy news, ensuring concise yet comprehensive summaries. Each summary must include at least one direct quote from a player, coach, or relevant official, offering unique insight or perspectives on the topic.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Acquire breaking news or trending stories from New York and generate a short synopsis for an overview.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify, compile, and critically analyze the most impactful and recent developments shaping current headlines in New York, ensuring a detailed summary that incorporates nuanced perspectives and examines interconnected implications for a quick yet comprehensive understanding.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Determine the latest prevailing and intensely-researched topics spanning specific sectors such as technology, healthcare, entertainment, and education, alongside varying demographic groups within the United States, to design a precision-driven, data-intensive marketing strategy.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "VIRTUAL REALITY",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate and analyze emerging innovations in EXTENDED REALITY systems, highlighting up to 10 revolutionary features or interdisciplinary applications transforming its trajectory across industries.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather the most recent and highly pertinent updates concerning critical news events, policy shifts, cultural phenomena, and societal trends uniquely emanating from New York City and the larger New York State region, offering a detailed yet cohesive summary for nuanced understanding and in-depth analysis.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Retrieve the latest hot topics people are searching for in the US to create a data-driven marketing strategy.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": ": Analyze the currently trending search queries from the United States to tailor localized content for a target audience.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": true
+      }
+    },
+    "source_instruction": "Analyze and identify the most prominent search trends currently circulating within the United States, offering detailed insights into recent behavioral patterns in online activity while categorizing and subcategorizing these trends into overarching themes such as technological advancements, entertainment phenomena, societal or cultural issues, and any emerging niche interests.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "AI advancements",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Conduct a nuanced analysis of recent news coverage within the past few days on \"AI advancements,\" extracting the latest insights while systematically evaluating the credibility, potential biases, and evidentiary support of the sources providing the information.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence advancements ethical dilemmas emerging applications societal ramifications",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Compile an extensively curated and analytical list of significant articles from the past week addressing key advancements, nuanced ethical dilemmas, emerging applications, and intricate societal ramifications of artificial intelligence, accompanied by an in-depth yet succinct summarization of their core insights and conclusions.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and curate the top 10 emerging scientific discoveries or technological breakthroughs reported globally within the past 72 hours, distilling their core findings using cutting-edge abstractive summarization techniques. Ensure consideration of breakthrough relevance, cross-disciplinary impact, and, where applicable, the integration of Large Language Model-driven synthesis for heightened accuracy and insight.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Extract the top 10 news articles from the past 3 days and condense their content using advanced content summarization techniques. Ensure summaries are generated with LLM Sampling whenever available.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Find news articles related to recent events or developments in New York within the last week, and provide concise summaries for better understanding.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "NEUROSCIENCE",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile a list of recently published articles related to NEUROSCIENCE, including summarized insights for easy review.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile and critically evaluate the most impactful op-ed pieces published globally over the past three days, sourced from major news platforms. Conduct an advanced rhetorical and discourse analysis, incorporating LLM-driven abstraction to distill their core arguments, underlying subtexts, and varied perspectives while preserving complex nuances and contextual interplay.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and synthesize articles covering significant events in New York City from the past 7 days, requiring prioritization of relevance and drawing connections to their broader societal, economic, and political contexts, while summarizing key implications.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Discover and analyze lesser-known yet consequential developments, underrepresented events, or hidden narratives unfolding in New York, while crafting a nuanced summary that emphasizes their broader significance, potential ripple effects, and long-term implications.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "AI advancements",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Perform a comprehensive analysis of recent news coverage over the past few days concerning \"AI advancements,\" systematically identifying the latest insights while also evaluating their ethical considerations and highlighting their significance and potential implications across different industries.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Examine and interpret emerging cultural phenomena in the United States by investigating digital engagement patterns across distinct age groups, geographic areas, and socioeconomic segments to uncover the underlying narratives shaping public discourse.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather up-to-date information on notable stories from New York, with a detailed summary for quick insights.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "climate change",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Offer a detailed synthesis of present-day news reports on climate change through a keyword-driven query, incorporating a balanced range of authoritative sources from peer-reviewed scientific journals and prominent mainstream media, while emphasizing regional impacts and emergent trends.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Compile a list of relevant articles on artificial intelligence from the past week and provide a brief overview of the findings.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Extract real-time, high-impact news events or widely-discussed trending narratives specifically originating from New York City, ensuring they are verified by at least two credible sources, and craft a concise summary providing a detailed contextual overview.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "TENNIS",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Gather recent articles covering TENNIS events or news from the past 3 days, emphasizing concise summaries of each for clarity.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "climate change",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather recent articles about climate change and prepare a concise summary with relevant highlights.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 5,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Find the top 5 stories from the last 3 days and provide digestible summaries to highlight key information.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify and critically analyze news articles detailing recent events, developments, or notable occurrences in New York from the last week, and produce concise yet insightful summaries that highlight key implications, contextual details, and potential future outcomes for enhanced understanding.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify recent top news articles from the past 3 days, limit to 10 articles, and use summarization methods to make the information more accessible.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "SOCIAL SCIENCES",
+        "period": 365,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": false
+      }
+    },
+    "source_instruction": "Compile an annotated collection of pivotal discoveries in the domain of COGNITIVE SCIENCE from the past year, ensuring detailed explanations of the methodologies, interconnected findings, and broader implications of each study through a multi-faceted analysis.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "AI advancements",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate recent news coverage from the past few days focused on \"AI advancements,\" critically evaluating the latest developments while systematically examining emerging trends, underlying controversies, and multifaceted implications across diverse industries.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "FINANCE",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and assess prominent headline developments and noteworthy events in CORPORATE FINANCE, TRADE POLICY, and MARKET STRATEGY from the last seven days, incorporating potential implications for global economic stability, then craft succinct summaries for each.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "BUSINESS",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and provide an in-depth examination of the most prominent news stories from the BUSINESS sector over the past week, expanding on key themes, underlying contexts, broader economic implications, and interconnected impacts, while crafting detailed yet cohesive summaries that thoroughly capture each story's core essence and significance.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile and critically analyze widely-discussed headline pieces from diverse and authoritative news sources published within the past three days, identifying their core arguments, underlying assumptions, and nuanced key takeaways for comprehensive yet concise contextual understanding. ",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate a collection of current and notable stories from New York, ensure each is accompanied by a comprehensive summary that provides quick yet insightful understanding, and integrate at least one expert opinion or analysis per story to enrich the narrative, ensuring connections between broader implications and localized contexts.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "anthropogenic impacts on global climate systems",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Perform a comprehensive extraction of both up-to-date and thoroughly condensed investigative news reports specifically related to the anthropogenic impacts on global climate systems, ensuring the analysis encompasses diverse geographical regions and sociopolitical viewpoints via a meticulously structured keyword-driven inquiry.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Produce a brief yet comprehensive overview by first identifying and analyzing the most significant top headlines from New York over the past few days, ensuring to extract key themes and trends through a multi-step evaluation of their context and relevance, while also considering potential biases in the reporting sources and their impact on the interpretation.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Find out the top search trends circulating within the US to explore recent behavioral patterns in online activity.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": true
+      }
+    },
+    "source_instruction": "Examine the most popular search trends currently dominating the US digital landscape in detail, while also identifying subtle emerging seasonal, cultural, or societal patterns that could influence future digital behavior.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "VIRTUAL REALITY",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Extract and integrate up to 10 groundbreaking observations from recent reports exploring the evolution of AUGMENTED REALITY, ensuring coverage across diverse areas such as technical innovations, practical implementations, cultural implications, and anticipated trends.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "United States",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze significant emerging news occurrences from the past seven days that have originated in prominent metropolitan areas across the United States, and provide a detailed summary of their specific repercussions and ripple effects on the adjacent local populations.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "climate change",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate a comprehensive selection of recent articles on climate change, ensuring they encompass a wide range of perspectives, including scientific, economic, social, and political dimensions, and provide a concise summary with pertinent highlights and thoroughly analyzed actionable insights.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Analyze and pinpoint the latest surging search trends observed within the digital landscape of the United States (US), delving deeply into the diverse interests of its internet user base by meticulously accounting for variations across specific socio-economic demographics and detailed age brackets.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "NEUROSCIENCE",
+        "period": 365,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate a detailed collection of transformative innovations and pioneering advancements in INVASIVE AND NON-INVASIVE BRAIN-COMPUTER INTERFACES from the past year, accompanied by succinct analyses of their potential ramifications for the progression of neural-interfacing technologies and human-machine symbiosis.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile a thoughtfully curated selection of the most significant and impactful news stories from the past few days, emphasizing concise summaries that incorporate layered critical analysis and multifaceted reasoning to justify their relevance, broader implications, and contextual importance.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "global temperature shifts environmental degradation",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Conduct a thorough search for up-to-date and concise news reports on global temperature shifts and environmental degradation using a keyword-driven query, ensuring the information originates from at least one peer-reviewed scientific journal or an official governmental research document.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "unique and unconventional advancements in artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and provide a comprehensive summary of the most unique and unconventional advancements in artificial intelligence reported over the past seven days, detailing their potential societal implications while meticulously exploring any ethical challenges or dilemmas they present through a multi-faceted lens.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "climate change",
+        "summarize": true
+      }
+    },
+    "source_instruction": "Retrieve current and summarized news reports on climate change using a keyword-based query.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "advancements applications ethical implications of artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Curate a compilation of noteworthy publications focusing on advancements, applications, and ethical implications of artificial intelligence from the preceding seven days; summarize the core insights of each piece, ensuring the inclusion of at least one pivotal metric or quantitative detail per publication.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Examine the emerging narrative trends within localized digital communities across the United States, identifying the distinctive cultural markers and interactions that are reshaping regional online ecosystems in response to societal changes and technological advancements.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "Manhattan, New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Examine and deconstruct rapidly emerging news events or highly discussed narratives specifically originating from Manhattan or broader New York City boroughs, ensuring you identify intricate patterns, subtexts, or correlations, then produce a succinct summary that conveys a nuanced and thought-provoking perspective.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 5,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and synthesize prominently debated headline articles from the last three to five days across internationally recognized news outlets, delving into their intricate narratives to generate succinct, context-driven, and pragmatic insights.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "NEUROSCIENCE",
+        "period": 7,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": false
+      }
+    },
+    "source_instruction": "Curate a systematically structured collection of recently published peer-reviewed articles centered on COGNITIVE AND BEHAVIORAL NEUROSCIENCE, incorporating thoroughly detailed insights that require multi-layered academic evaluation and synthesis for streamlined scholarly analysis.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate and synthesize recent advancements covered in the media regarding \"artificial intelligence\" over the past 7 days, identifying up to 10 noteworthy items, and ensure the analysis spans at least two distinct industries or domains influenced by AI, including implications or challenges within each sector.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather trending headline articles from recent days and summarize their main points for quick insights.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": true
+      }
+    },
+    "source_instruction": "Analyze the currently trending search queries originating from the United States in-depth, incorporating multiple layers of reasoning to identify patterns, infer audience preferences, and propose nuanced strategies for tailoring localized content, while also evaluating the potential impact of seasonal trends on search behavior within the target demographic.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Analyze, evaluate, and critically compare the most prominent, rapidly evolving, and regionally distinctive search trends in the US, exploring underlying societal, technological, and cultural factors to gain nuanced insights and sustain relevance within that region's intricate and continuously shifting digital landscape.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "ENVIRONMENT",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate and critically evaluate the latest breakthroughs and developments pertaining to ecological preservation, climate resilience, or sustainable resource management from the past 7 days. Present condensed key findings from authoritative publications, ensuring to assess their significance and possible ramifications for environmental legislation, green technologies, or international sustainability efforts.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Analyze and pinpoint the most significant and rapidly evolving search trends currently pervasive across diverse regions within the United States, examining their implications for understanding broader transformations in digital information-seeking behaviors and user intentions.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Retrieve and summarize articles covering significant happenings in New York City, focusing on the most relevant ones within the last 7 days.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather and thoroughly examine prominent headline articles from the past few days across varied specialized fields, condensing their primary arguments while also identifying deep-seated patterns, societal implications, and potential ripple effects for well-rounded evaluations.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "prominent metropolitan areas",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Highlight significant art exhibitions, musical performances, or social activism gatherings that have occurred in prominent metropolitan areas over the last week, offering concise analyses of their cultural significance and societal influence.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "VIRTUAL REALITY",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and derive nuanced insights from contemporary articles discussing breakthroughs in VIRTUAL REALITY, structuring your response to emphasize up to 10 pivotal details while illustrating how these advancements might interlink across various sectors and influence emerging technologies.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Identify, analyze, and critically synthesize key advancements and discussions within the media landscape concerning \"artificial intelligence\" over the past 7 days, explicitly ensuring a multi-step evaluation process for relevance, diversity of perspective, and the selection of the 10 most impactful findings.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": true
+      }
+    },
+    "source_instruction": "Perform a comprehensive examination of the prevailing internet search patterns emerging uniquely from the United States, factoring in state-level and metropolitan distinctions, to strategically craft hyper-localized and demographically tailored content for a precisely segmented audience.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "AI advancements",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": ": Look into news coverage over the past few days related to \"AI advancements\" and extract the latest insights.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York City",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Compile and analyze the most significant and widely discussed news headlines emerging from New York City over the past 72 hours, with a detailed emphasis on political, economic, and cultural developments, while carefully synthesizing these findings into a succinct yet comprehensive summary.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "BUSINESS",
+        "period": 30,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Examine and critically evaluate emerging trends in global trade and commerce over the past month, emphasizing innovative business practices, while also considering their direct and indirect potential impacts on both short-term economic growth and long-term global market dynamics.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate a selection of the most thought-provoking and significant developments reported over the last 72 hours, capped at 10 entries. Use concise narrative techniques to distill the essence of each event, ensuring the collection spans at least three unique fields such as science breakthroughs, cultural trends, and economic shifts.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "BUSINESS",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Investigate top news stories about BUSINESS from the past week and create concise summaries of each.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate an in-depth catalog of pivotal developments from recent global events, accompanied by brief yet insightful synopses that emphasize underlying themes, interconnections, and potential future ramifications for a nuanced understanding.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Analyze and identify the most recent trending topics and highly searched keywords within the United States, ensuring the inclusion of regional variations, to formulate an innovative and insight-driven digital marketing strategy.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_location",
+      "arguments": {
+        "location": "New York",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Search for top headlines from New York over the past few days and condense the information into a brief overview.",
+    "tool": "google-news-trends-mcp_get_news_by_location"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Analyze and identify emerging cultural trends and behaviors in the US by examining social media discussions and online search patterns, incorporating regional variations to craft a forward-thinking and locally nuanced brand engagement plan.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Determine and isolate the 10 most impactful and contextually relevant news articles from the last 3 days, considering both global significance and potential influence. Subsequently, implement a multi-stage summarization framework that synergizes advanced content abstraction methods with iterative LLM sampling (where relevant) to craft succinct yet cohesive summaries, ensuring optimal preservation of contextual depth, thematic fidelity, and layered nuance.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "TENNIS",
+        "period": 3,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Gather recent articles from the past 3 days covering TENNIS events or news, ensuring each is summarized concisely yet insightfully, while also identifying and elaborating on the significance of at least one notable player or team featured in each article.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_top_news",
+      "arguments": {
+        "period": 3,
+        "max_results": 10,
+        "full_data": true,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Curate 10 of the most significant news articles from the past 3 days, evaluating their societal, economic, or political impact through a detailed multi-angle analysis, and apply advanced summarization techniques incorporating contextual comparisons to distill core insights while preserving nuanced details.",
+    "tool": "google-news-trends-mcp_get_top_news"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "environmental tipping points ecosystems triggers cascading effects prevention mechanisms ecological stability",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Research and synthesize emerging perspectives on environmental tipping points across diverse ecosystems, examining their triggers, cascading effects, prevention mechanisms, and implications for future ecological stability, and create a comprehensive overview with actionable insights and critical takeaways.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_keyword",
+      "arguments": {
+        "keyword": "artificial intelligence",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Perform a comprehensive and multi-faceted analysis of recent developments, debates, or controversies in media coverage related to \"artificial intelligence\" over the past 7 days, ensuring insights are critically categorized, interconnections explored, and judiciously condensed into a limit of 10 highly relevant results.",
+    "tool": "google-news-trends-mcp_get_news_by_keyword"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_news_by_topic",
+      "arguments": {
+        "topic": "ENVIRONMENT",
+        "period": 7,
+        "max_results": 10,
+        "full_data": false,
+        "summarize": true
+      }
+    },
+    "source_instruction": "Analyze and identify significant breakthroughs or groundbreaking global initiatives in SUSTAINABILITY from the past week, and, through a multi-faceted evaluation, present concise but comprehensive summaries of the most impactful and transformative stories.",
+    "tool": "google-news-trends-mcp_get_news_by_topic"
+  },
+  {
+    "function_call": {
+      "name": "google-news-trends-mcp_get_trending_terms",
+      "arguments": {
+        "geo": "US",
+        "full_data": false
+      }
+    },
+    "source_instruction": "Identify the most recent trending search topics within the United States (US) to understand the current interests of its online users.",
+    "tool": "google-news-trends-mcp_get_trending_terms"
+  }
+]

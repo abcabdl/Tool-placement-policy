@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentvocab"
+version = "0.1.0"
+description = "Structure-aware vocabulary adaptation utilities for efficient LLM agents."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "AgentVocab Authors"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

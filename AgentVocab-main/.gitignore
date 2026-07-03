@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Large local artifacts
+data/
+outputs/
+checkpoints/
+models/
+results/
+runs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+

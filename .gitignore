@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Runtime caches and logs.
+.cache/
+.bin/
+log/
+*.log
+*.pid
+
+# Large model/training artifacts.
+**/checkpoint-*/
+**/runs/
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/pytorch_model*.bin
+**/model-*.safetensors
+
+# Keep lightweight AgentVocab/ParaTool adapted data, but ignore future heavy training outputs.
+AgentVocab-main/outputs/stage*/
+AgentVocab-main/outputs/models/
+AgentVocab-main/outputs/eval/
+ParaTool-main/output/

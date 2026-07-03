@@ -1,0 +1,182 @@
+[
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-10-15",
+        "fromCity": "北京南",
+        "toCity": "上海虹桥"
+      }
+    },
+    "source_instruction": "List operational high-speed rail itineraries connecting Beijing South Railway Station and Shanghai Hongqiao Railway Station on October 15th, 2023, ensuring the inclusion of departure times, journey durations, train identification numbers, and whether the service is categorized as direct or requires transfers.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-10-15",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Find available train schedules between Beijing and Shanghai on 2023-10-15.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-12-15",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": ": Check for railway options to travel from Beijing to Shanghai on 2023-12-15.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Look up train connections for a planned trip on 2023-11-25 from Beijing to Shanghai.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Analyze and evaluate train connections for a planned journey on 2023-11-25 from Beijing to Shanghai, factoring in various departure times, travel durations, seat class preferences, and potential trade-offs between cost, convenience, and travel time efficiency.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Search for transport options via railway from Beijing to Shanghai on 2023-11-25.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-12-15",
+        "fromCity": "北京",
+        "toCity": "上海"
+      }
+    },
+    "source_instruction": "Determine and elaborate on the comprehensive range of railway options available for travel between Beijing and Shanghai on 2023-12-15, ensuring that listings include precise departure and arrival times, train categories, and travel durations for each option.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2024-04-15",
+        "fromCity": "Tokyo",
+        "toCity": "Sydney"
+      }
+    },
+    "source_instruction": "Provide detailed information on flights leaving Tokyo for Sydney on 2024-04-15, specifying not only their departure and arrival times but also the airline names, flight durations, and layovers (if any).",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-10-05",
+        "fromCity": "北京",
+        "toCity": "上海"
+      }
+    },
+    "source_instruction": ": Retrieve the list of trains departing from Beijing and arriving at Shanghai on 2023-10-05.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Conduct a comprehensive search for train connections, including departure times, travel durations, potential transfer options, and onboard amenities, for a scheduled journey on 2023-11-25 starting from Beijing heading to Shanghai.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "北京",
+        "toCity": "上海"
+      }
+    },
+    "source_instruction": "Analyze and critically assess the diverse railway transport options accessible for travel from Beijing to Shanghai on 2023-11-25, taking into account factors such as departure times, travel durations, ticket classes, seating comfort, ticket pricing, and overall availability.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-12-15",
+        "fromCity": "北京南",
+        "toCity": "上海虹桥"
+      }
+    },
+    "source_instruction": "Conduct an in-depth analysis of high-speed rail options alongside other train services, considering factors such as travel time, ticket pricing, and available train classes, to determine the best way to commute from Beijing South Railway Station to Shanghai Hongqiao Railway Station on 2023-12-15.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-12-20",
+        "fromCity": "Tokyo",
+        "toCity": "Osaka"
+      }
+    },
+    "source_instruction": "List all available flights for travel between Tokyo and Osaka on 2023-12-20, ensuring only non-stop options operated by major airlines are included.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-25",
+        "fromCity": "Beijing",
+        "toCity": "Shanghai"
+      }
+    },
+    "source_instruction": "Analyze and evaluate the available railway transport options for traveling from Beijing to Shanghai on 2023-11-25, considering factors such as departure times, travel duration, ticket availability, and differences in travel classes to provide a comprehensive overview.",
+    "tool": "mcp-server-chinarailway_search"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-chinarailway_search",
+      "arguments": {
+        "date": "2023-11-15",
+        "fromCity": "Singapore",
+        "toCity": "Jakarta"
+      }
+    },
+    "source_instruction": "Identify and provide the detailed schedule of cargo ships operating on the route from Singapore to Jakarta on 2023-11-15, including their exact departure and arrival times, along with an analysis of potential factors such as weather or port traffic that might influence these timings.",
+    "tool": "mcp-server-chinarailway_search"
+  }
+]

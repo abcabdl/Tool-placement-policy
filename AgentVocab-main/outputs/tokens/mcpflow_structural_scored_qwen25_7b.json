@@ -1,0 +1,3881 @@
+[
+  {
+    "token": "arguments:url",
+    "original_freq": 904,
+    "current_freq": 904,
+    "original_len": 2,
+    "current_len": 2,
+    "tokenizer_view": "arguments | :url",
+    "marginal_savings": 639.2245301926389
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_scraping_browser_scroll\"}",
+    "original_freq": 60,
+    "current_freq": 60,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | \"}",
+    "marginal_savings": 232.83420003487964
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_scraping_browser_links\"}",
+    "original_freq": 60,
+    "current_freq": 60,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _links | \"}",
+    "marginal_savings": 232.83420003487964
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_scraping_browser_get_text\"}",
+    "original_freq": 56,
+    "current_freq": 56,
+    "original_len": 18,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _get | _text | \"}",
+    "marginal_savings": 224.3885518965311
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_session_stats\"}",
+    "original_freq": 60,
+    "current_freq": 60,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _session | _stats | \"}",
+    "marginal_savings": 208.46376869169103
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_scraping_browser_go_forward\"}",
+    "original_freq": 52,
+    "current_freq": 52,
+    "original_len": 18,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _go | _forward | \"}",
+    "marginal_savings": 208.36079818963603
+  },
+  {
+    "token": "{\"arguments\":{},\"name\":\"brightdata-mcp_scraping_browser_go_back\"}",
+    "original_freq": 52,
+    "current_freq": 52,
+    "original_len": 18,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \": | {} | ,\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _go | _back | \"}",
+    "marginal_savings": 208.36079818963603
+  },
+  {
+    "token": "{\"arguments\":{\"first_name\":\"<string>\",\"last_name\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_linkedin_people_search\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 36,
+    "current_len": 36,
+    "tokenizer_view": "{\" | arguments | \":{\" | first | _name | \":\" | < | string | > | \",\" | last | _name | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _people | _search | \"}",
+    "marginal_savings": 175.0
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"<string>\",\"submit\":\"<boolean>\",\"text\":\"<string>\"},\"name\":\"brightdata-mcp_scraping_browser_type\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 33,
+    "current_len": 33,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | < | string | > | \",\" | submit | \":\" | < | boolean | > | \",\" | text | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _type | \"}",
+    "marginal_savings": 167.1145497174699
+  },
+  {
+    "token": "{\"arguments\":{\"keyword\":\"<string>\",\"pages_to_search\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_amazon_product_search\"}",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 36,
+    "current_len": 36,
+    "tokenizer_view": "{\" | arguments | \":{\" | keyword | \":\" | < | string | > | \",\" | pages | _to | _search | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _am | azon | _product | _search | \"}",
+    "marginal_savings": 163.33333333333334
+  },
+  {
+    "token": "{\"arguments\":{\"days_limit\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_google_maps_reviews\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 28,
+    "current_len": 28,
+    "tokenizer_view": "{\" | arguments | \":{\" | days | _limit | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _google | _maps | _reviews | \"}",
+    "marginal_savings": 153.07561156873703
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_comments\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_youtube_comments\"}",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 29,
+    "current_len": 29,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _comments | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | outube | _comments | \"}",
+    "marginal_savings": 150.78461459976612
+  },
+  {
+    "token": "{\"arguments\":{\"extraction_prompt\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_extract\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 25,
+    "current_len": 25,
+    "tokenizer_view": "{\" | arguments | \":{\" | ex | traction | _prompt | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _extract | \"}",
+    "marginal_savings": 144.0
+  },
+  {
+    "token": "{\"arguments\":{\"engine\":\"<string>\",\"query\":\"<string>\"},\"name\":\"brightdata-mcp_search_engine\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 24,
+    "current_len": 24,
+    "tokenizer_view": "{\" | arguments | \":{\" | engine | \":\" | < | string | > | \",\" | query | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _search | _engine | \"}",
+    "marginal_savings": 140.84566021003275
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"<string>\",\"timeout\":\"<integer>\"},\"name\":\"brightdata-mcp_scraping_browser_wait_for\"}",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 28,
+    "current_len": 28,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | < | string | > | \",\" | timeout | \":\" | < | integer | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _wait | _for | \"}",
+    "marginal_savings": 137.76805041186333
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_scraping_browser_navigate\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate | \"}",
+    "marginal_savings": 134.31645130403456
+  },
+  {
+    "token": "{\"arguments\":{\"full_page\":\"<boolean>\"},\"name\":\"brightdata-mcp_scraping_browser_screenshot\"}",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | full | _page | \":\" | < | boolean | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _s | creenshot | \"}",
+    "marginal_savings": 133.03219616841372
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"<string>\"},\"name\":\"brightdata-mcp_scraping_browser_click\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _click | \"}",
+    "marginal_savings": 130.93073414159542
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://example.com\"},\"name\":\"brightdata-mcp_scrape_as_html\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | example | .com | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rape | _as | _html | \"}",
+    "marginal_savings": 130.93073414159542
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_reuter_news\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _re | uter | _news | \"}",
+    "marginal_savings": 130.93073414159542
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_scrape_as_markdown\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rape | _as | _mark | down | \"}",
+    "marginal_savings": 130.93073414159542
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"<string>\"},\"name\":\"brightdata-mcp_scraping_browser_scroll_to\"}",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | _to | \"}",
+    "marginal_savings": 129.83923626056674
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://example.com\"},\"name\":\"brightdata-mcp_scrape_as_markdown\"}",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | example | .com | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rape | _as | _mark | down | \"}",
+    "marginal_savings": 129.83923626056674
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_yahoo_finance_business\"}",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business | \"}",
+    "marginal_savings": 128.44487905915807
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"},\"name\":\"brightdata-mcp_web_data_youtube_videos\"}",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 36,
+    "current_len": 36,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .youtube | .com | /watch | ?v | =d | Q | w | 4 | w | 9 | W | g | X | c | Q | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | outube | _videos | \"}",
+    "marginal_savings": 128.33333333333334
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_people_search:schema:first_name:string,last_name:string,url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 20,
+    "current_len": 20,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _people | _search | :s | chema | :first | _name | :string | ,last | _name | :string | ,url | :string",
+    "marginal_savings": 127.455874717488
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_scrape_as_html\"}",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 20,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rape | _as | _html | \"}",
+    "marginal_savings": 127.455874717488
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_search:schema:keyword:string,pages_to_search:string,url:string",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | _search | :s | chema | : | keyword | :string | ,p | ages | _to | _search | :string | ,url | :string",
+    "marginal_savings": 125.36202121709893
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_linkedin_company_profile\"}",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _company | _profile | \"}",
+    "marginal_savings": 125.36202121709893
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_linkedin_person_profile\"}",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _person | _profile | \"}",
+    "marginal_savings": 125.36202121709893
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_type:schema:selector:string,submit:boolean,text:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 19,
+    "current_len": 19,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _type | :s | chema | : | selector | :string | , | submit | :boolean | ,text | :string",
+    "marginal_savings": 123.88449629010334
+  },
+  {
+    "token": "{\"arguments\":{\"full_page\":\"<boolean>\"},\"name\":\"brightdata-mcp_scraping_browser_get_html\"}",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | full | _page | \":\" | < | boolean | > | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _get | _html | \"}",
+    "marginal_savings": 123.85756194990242
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_linkedin_posts\"}",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _posts | \"}",
+    "marginal_savings": 122.20201853215573
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_crunchbase_company\"}",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _cr | unch | base | _company | \"}",
+    "marginal_savings": 120.8848061736311
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://example.com\"},\"name\":\"brightdata-mcp_scraping_browser_navigate\"}",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | example | .com | \"},\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate | \"}",
+    "marginal_savings": 119.27024484064677
+  },
+  {
+    "token": "{\"arguments\":{\"full_page\":true},\"name\":\"brightdata-mcp_scraping_browser_get_html\"}",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | full | _page | \": | true | },\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _get | _html | \"}",
+    "marginal_savings": 117.83766072743589
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_youtube_videos\"}",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | outube | _videos | \"}",
+    "marginal_savings": 117.83766072743589
+  },
+  {
+    "token": "{\"arguments\":{\"first_name\":\"John\",\"last_name\":\"Doe\",\"url\":\"https://www.linkedin.com/in/johndoe\"},\"name\":\"brightdata-mcp_web_data_linkedin_people_search\"}",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 40,
+    "current_len": 40,
+    "tokenizer_view": "{\" | arguments | \":{\" | first | _name | \":\" | John | \",\" | last | _name | \":\" | D | oe | \",\" | url | \":\" | https | :// | www | .linkedin | .com | /in | /j | oh | nd | oe | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _people | _search | \"}",
+    "marginal_savings": 117.16238730923845
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_people_search:required:first_name,last_name,url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _people | _search | : | required | :first | _name | ,last | _name | ,url",
+    "marginal_savings": 116.41710001743982
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_maps_reviews:schema:days_limit:string,url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _maps | _reviews | :s | chema | : | days | _limit | :string | ,url | :string",
+    "marginal_savings": 116.41710001743982
+  },
+  {
+    "token": "brightdata-mcp_search_engine:schema:cursor:string,engine:string,query:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _search | _engine | :s | chema | : | cursor | :string | , | engine | :string | , | query | :string",
+    "marginal_savings": 116.41710001743982
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_apple_app_store\"}",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _app | le | _app | _store | \"}",
+    "marginal_savings": 116.4075911301633
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_reviews\":\"<string>\",\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_facebook_company_reviews\"}",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 29,
+    "current_len": 29,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _reviews | \":\" | < | string | > | \",\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _company | _reviews | \"}",
+    "marginal_savings": 114.38832831706395
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_reddit_posts\"}",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _re | ddit | _posts | \"}",
+    "marginal_savings": 113.47330292271604
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/posts/example-post\"},\"name\":\"brightdata-mcp_web_data_linkedin_posts\"}",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 26,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /posts | /example | -post | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _posts | \"}",
+    "marginal_savings": 112.76677770445582
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_comments:schema:num_of_comments:string,url:string",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _comments | :s | chema | :num | _of | _comments | :string | ,url | :string",
+    "marginal_savings": 112.53653001685849
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_people_search(first_name,last_name,url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 16,
+    "current_len": 16,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _people | _search | (first | _name | ,last | _name | ,url | )",
+    "marginal_savings": 112.5
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_tiktok_posts\"}",
+    "original_freq": 25,
+    "current_freq": 25,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _t | ik | tok | _posts | \"}",
+    "marginal_savings": 111.93037608669547
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_facebook_posts\"}",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 20,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _posts | \"}",
+    "marginal_savings": 110.4617580884896
+  },
+  {
+    "token": "{\"arguments\":{\"full_page\":true},\"name\":\"brightdata-mcp_scraping_browser_screenshot\"}",
+    "original_freq": 25,
+    "current_freq": 25,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | full | _page | \": | true | },\" | name | \":\" | bright | data | -m | cp | _sc | rap | ing | _browser | _s | creenshot | \"}",
+    "marginal_savings": 109.1089451179962
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_screenshot:schema:full_page:boolean",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 16,
+    "current_len": 16,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _s | creenshot | :s | chema | : | full | _page | :boolean",
+    "marginal_savings": 108.75
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_search(keyword,pages_to_search,url)",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | _search | (keyword | ,p | ages | _to | _search | ,url | )",
+    "marginal_savings": 108.65596001627718
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_wait_for:schema:selector:string,timeout:number",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 18,
+    "current_len": 18,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _wait | _for | :s | chema | : | selector | :string | , | timeout | :number",
+    "marginal_savings": 108.18733752154178
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://apps.apple.com/us/app/example-app/id123456789\"},\"name\":\"brightdata-mcp_web_data_apple_app_store\"}",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 38,
+    "current_len": 38,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | apps | .apple | .com | /us | /app | /example | -app | /id | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _app | le | _app | _store | \"}",
+    "marginal_savings": 108.03946647308786
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_zoominfo_company_profile\"}",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile | \"}",
+    "marginal_savings": 107.45316104322765
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_homedepot_products\"}",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _h | omed | ep | ot | _products | \"}",
+    "marginal_savings": 105.50829351287985
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_scroll_to:schema:selector:string",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | _to | :s | chema | : | selector | :string",
+    "marginal_savings": 104.82874923734741
+  },
+  {
+    "token": "brightdata-mcp_extract:schema:extraction_prompt:string,url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _extract | :s | chema | : | ex | traction | _prompt | :string | ,url | :string",
+    "marginal_savings": 104.23188434584551
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_click:schema:selector:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _click | :s | chema | : | selector | :string",
+    "marginal_savings": 104.23188434584551
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_type:required:selector,text",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _type | : | required | : | selector | ,text",
+    "marginal_savings": 104.23188434584551
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_navigate:schema:url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate | :s | chema | :url | :string",
+    "marginal_savings": 104.23188434584551
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_type(selector,submit,text)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _type | (selector | , | submit | ,text | )",
+    "marginal_savings": 104.23188434584551
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_tiktok_comments\"}",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _t | ik | tok | _comments | \"}",
+    "marginal_savings": 102.97594599975983
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_x_posts\"}",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 20,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _x | _posts | \"}",
+    "marginal_savings": 101.9646997739904
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_get_html:schema:full_page:boolean",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 16,
+    "current_len": 16,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _get | _html | :s | chema | : | full | _page | :boolean",
+    "marginal_savings": 101.25
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_search:required:keyword,url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | _search | : | required | : | keyword | ,url",
+    "marginal_savings": 101.21396478088715
+  },
+  {
+    "token": "brightdata-mcp_web_data_yahoo_finance_business:schema:url:string",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business | :s | chema | :url | :string",
+    "marginal_savings": 101.21396478088715
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_linkedin_job_listings\"}",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _link | edin | _job | _list | ings | \"}",
+    "marginal_savings": 100.9209764036242
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_comments(num_of_comments,url)",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _comments | (num | _of | _comments | ,url | )",
+    "marginal_savings": 100.757488200984
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_scroll_to:required:selector",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | _to | : | required | : | selector",
+    "marginal_savings": 100.757488200984
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_youtube_profiles\"}",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | outube | _profiles | \"}",
+    "marginal_savings": 100.3802295085565
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_maps_reviews(days_limit,url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _maps | _reviews | (days | _limit | ,url | )",
+    "marginal_savings": 99.84603532054125
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_click:required:selector",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _click | : | required | : | selector",
+    "marginal_savings": 99.84603532054125
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_navigate:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate | : | required | :url",
+    "marginal_savings": 99.84603532054125
+  },
+  {
+    "token": "brightdata-mcp_web_data_reuter_news:schema:url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | uter | _news | :s | chema | :url | :string",
+    "marginal_savings": 99.84603532054125
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_markdown:schema:url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _mark | down | :s | chema | :url | :string",
+    "marginal_savings": 99.84603532054125
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_company_profile:schema:url:string",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _company | _profile | :s | chema | :url | :string",
+    "marginal_savings": 97.28309205612248
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_person_profile:schema:url:string",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _person | _profile | :s | chema | :url | :string",
+    "marginal_savings": 97.28309205612248
+  },
+  {
+    "token": "brightdata-mcp_web_data_yahoo_finance_business:required:url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business | : | required | :url",
+    "marginal_savings": 97.28309205612248
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_videos:schema:url:string",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _videos | :s | chema | :url | :string",
+    "marginal_savings": 96.51783414318987
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_screenshot(full_page)",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _s | creenshot | (full | _page | )",
+    "marginal_savings": 96.51783414318987
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_comments\":\"10\",\"url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"},\"name\":\"brightdata-mcp_web_data_youtube_comments\"}",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 43,
+    "current_len": 43,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _comments | \":\" | 1 | 0 | \",\" | url | \":\" | https | :// | www | .youtube | .com | /watch | ?v | =d | Q | w | 4 | w | 9 | W | g | X | c | Q | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | outube | _comments | \"}",
+    "marginal_savings": 96.07409930954094
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_instagram_profiles\"}",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _inst | agram | _profiles | \"}",
+    "marginal_savings": 96.01587170383665
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://finance.yahoo.com/quote/AAPL\"},\"name\":\"brightdata-mcp_web_data_yahoo_finance_business\"}",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 30,
+    "current_len": 30,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | finance | .yahoo | .com | / | quote | /A | AP | L | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business | \"}",
+    "marginal_savings": 95.3037250058989
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_maps_reviews:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _maps | _reviews | : | required | :url",
+    "marginal_savings": 95.26279441628826
+  },
+  {
+    "token": "brightdata-mcp_web_data_reuter_news:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | uter | _news | : | required | :url",
+    "marginal_savings": 95.26279441628826
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_html:schema:url:string",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _html | :s | chema | :url | :string",
+    "marginal_savings": 95.26279441628826
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_markdown:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _mark | down | : | required | :url",
+    "marginal_savings": 95.26279441628826
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_navigate(url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate | (url | )",
+    "marginal_savings": 95.26279441628826
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.amazon.com/dp/B08N5WRWNW\"},\"name\":\"brightdata-mcp_web_data_amazon_product\"}",
+    "original_freq": 17,
+    "current_freq": 17,
+    "original_len": 33,
+    "current_len": 33,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .amazon | .com | /d | p | /B | 0 | 8 | N | 5 | WR | WN | W | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _am | azon | _product | \"}",
+    "marginal_savings": 94.69824483989963
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_zillow_properties_listing\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing | \"}",
+    "marginal_savings": 94.0215159128242
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_github_repository_file\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _g | ithub | _repository | _file | \"}",
+    "marginal_savings": 94.0215159128242
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_tiktok_profiles\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _t | ik | tok | _profiles | \"}",
+    "marginal_savings": 94.0215159128242
+  },
+  {
+    "token": "brightdata-mcp_web_data_crunchbase_company:schema:url:string",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _cr | unch | base | _company | :s | chema | :url | :string",
+    "marginal_savings": 93.80869591126095
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_wait_for(selector,timeout)",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _wait | _for | (selector | , | timeout | )",
+    "marginal_savings": 93.80869591126095
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_wait_for:required:selector",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _wait | _for | : | required | : | selector",
+    "marginal_savings": 93.80869591126095
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_company_profile:required:url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _company | _profile | : | required | :url",
+    "marginal_savings": 93.1896329658385
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_person_profile:required:url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _person | _profile | : | required | :url",
+    "marginal_savings": 93.1896329658385
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_posts:schema:url:string",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _posts | :s | chema | :url | :string",
+    "marginal_savings": 93.1896329658385
+  },
+  {
+    "token": "brightdata-mcp_web_data_yahoo_finance_business(url)",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business | (url | )",
+    "marginal_savings": 93.1896329658385
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_comments:required:url",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _comments | : | required | :url",
+    "marginal_savings": 92.08736793574532
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_scroll_to(selector)",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | _to | (selector | )",
+    "marginal_savings": 92.08736793574532
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_videos:required:url",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _videos | : | required | :url",
+    "marginal_savings": 92.08736793574532
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_instagram_comments\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _inst | agram | _comments | \"}",
+    "marginal_savings": 91.65151389911681
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_google_shopping\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _google | _sh | opping | \"}",
+    "marginal_savings": 91.65151389911681
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_amazon_product\"}",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _am | azon | _product | \"}",
+    "marginal_savings": 91.65151389911681
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_click(selector)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _click | (selector | )",
+    "marginal_savings": 90.45340337332908
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_html:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _html | : | required | :url",
+    "marginal_savings": 90.45340337332908
+  },
+  {
+    "token": "brightdata-mcp_web_data_reuter_news(url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | uter | _news | (url | )",
+    "marginal_savings": 90.45340337332908
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_markdown(url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _mark | down | (url | )",
+    "marginal_savings": 90.45340337332908
+  },
+  {
+    "token": "brightdata-mcp_web_data_apple_app_store:schema:url:string",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _app | le | _app | _store | :s | chema | :url | :string",
+    "marginal_savings": 90.33429976639944
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_posts:schema:url:string",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _posts | :s | chema | :url | :string",
+    "marginal_savings": 90.33429976639944
+  },
+  {
+    "token": "brightdata-mcp_web_data_crunchbase_company:required:url",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _cr | unch | base | _company | : | required | :url",
+    "marginal_savings": 89.86143178848712
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_get_html(full_page)",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _get | _html | (full | _page | )",
+    "marginal_savings": 89.86143178848712
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_company_profile(url)",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _company | _profile | (url | )",
+    "marginal_savings": 88.91194145520237
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_person_profile(url)",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _person | _profile | (url | )",
+    "marginal_savings": 88.91194145520237
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_posts:required:url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _posts | : | required | :url",
+    "marginal_savings": 88.91194145520237
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_instagram_posts\"}",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _inst | agram | _posts | \"}",
+    "marginal_savings": 87.28715609439696
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_booking_hotel_listings\"}",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _booking | _hot | el | _list | ings | \"}",
+    "marginal_savings": 87.15902507585726
+  },
+  {
+    "token": "brightdata-mcp_web_data_reddit_posts:schema:url:string",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | ddit | _posts | :s | chema | :url | :string",
+    "marginal_savings": 86.53323061113575
+  },
+  {
+    "token": "brightdata-mcp_web_data_apple_app_store:required:url",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _app | le | _app | _store | : | required | :url",
+    "marginal_savings": 86.53323061113575
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_posts:required:url",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _posts | : | required | :url",
+    "marginal_savings": 86.53323061113575
+  },
+  {
+    "token": "brightdata-mcp_web_data_crunchbase_company(url)",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _cr | unch | base | _company | (url | )",
+    "marginal_savings": 85.73651497465943
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_people_search",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _people | _search",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata_mcp_web_data_linkedin_people_search",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _link | edin | _people | _search",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_extract(extraction_prompt,url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _extract | (ex | traction | _prompt | ,url | )",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_search_engine:required:query",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _search | _engine | : | required | : | query",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_search_engine(engine,query)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _search | _engine | (engine | , | query | )",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_navigate",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _n | avigate",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_navigate",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _n | avigate",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_html(url)",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _html | (url | )",
+    "marginal_savings": 85.38149682454623
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_company_reviews:schema:num_of_reviews:string,url:string",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 17,
+    "current_len": 17,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _company | _reviews | :s | chema | :num | _of | _reviews | :string | ,url | :string",
+    "marginal_savings": 85.3725400127892
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_amazon_product_reviews\"}",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _am | azon | _product | _reviews | \"}",
+    "marginal_savings": 85.06708582588855
+  },
+  {
+    "token": "brightdata_mcp_web_data_yahoo_finance_business",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _y | ahoo | _f | inance | _business",
+    "marginal_savings": 84.42317648177382
+  },
+  {
+    "token": "brightdata-mcp_web_data_yahoo_finance_business",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | ahoo | _f | inance | _business",
+    "marginal_savings": 84.42317648177382
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_posts(url)",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _posts | (url | )",
+    "marginal_savings": 84.42317648177382
+  },
+  {
+    "token": "arguments:full_page",
+    "original_freq": 56,
+    "current_freq": 56,
+    "original_len": 4,
+    "current_len": 4,
+    "tokenizer_view": "arguments | : | full | _page",
+    "marginal_savings": 84.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_zoominfo_company_profile:schema:url:string",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile | :s | chema | :url | :string",
+    "marginal_savings": 83.38550747667641
+  },
+  {
+    "token": "brightdata-mcp_web_data_homedepot_products:schema:url:string",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _h | omed | ep | ot | _products | :s | chema | :url | :string",
+    "marginal_savings": 83.14004249858588
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_google_play_store\"}",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _google | _play | _store | \"}",
+    "marginal_savings": 82.9227982896771
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_facebook_marketplace_listings\"}",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 23,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _market | place | _list | ings | \"}",
+    "marginal_savings": 82.57170796660161
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_posts:schema:url:string",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _posts | :s | chema | :url | :string",
+    "marginal_savings": 82.56108849411649
+  },
+  {
+    "token": "brightdata-mcp_web_data_reddit_posts:required:url",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | ddit | _posts | : | required | :url",
+    "marginal_savings": 82.56108849411649
+  },
+  {
+    "token": "brightdata-mcp_web_data_apple_app_store(url)",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _app | le | _app | _store | (url | )",
+    "marginal_savings": 82.56108849411649
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_screenshot",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _s | creenshot",
+    "marginal_savings": 82.5354469303947
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_screenshot",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _s | creenshot",
+    "marginal_savings": 82.5354469303947
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_scroll_to",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _scroll | _to",
+    "marginal_savings": 82.5354469303947
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_scroll_to",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _scroll | _to",
+    "marginal_savings": 82.5354469303947
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_videos(url)",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _videos | (url | )",
+    "marginal_savings": 81.40806303599618
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_facebook_events\"}",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 20,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _events | \"}",
+    "marginal_savings": 80.7220539877424
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_maps_reviews",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _maps | _reviews",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_google_maps_reviews",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _google | _maps | _reviews",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_scroll",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _scroll",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_scroll",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _scroll",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_links",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _links",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_click",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _click",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_links",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _links",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_click",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _click",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_type",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _type",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_type",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _type",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_reuter_news",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _re | uter | _news",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_reuter_news",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | uter | _news",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata_mcp_scrape_as_markdown",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rape | _as | _mark | down",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_markdown",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _mark | down",
+    "marginal_savings": 80.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_comments:schema:url:string",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _comments | :s | chema | :url | :string",
+    "marginal_savings": 79.9111113318149
+  },
+  {
+    "token": "brightdata-mcp_web_data_homedepot_products:required:url",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _h | omed | ep | ot | _products | : | required | :url",
+    "marginal_savings": 79.9111113318149
+  },
+  {
+    "token": "brightdata-mcp_web_data_zoominfo_company_profile:required:url",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile | : | required | :url",
+    "marginal_savings": 79.876828256433
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_profiles:schema:url:string",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _profiles | :s | chema | :url | :string",
+    "marginal_savings": 79.876828256433
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_profiles:schema:url:string",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _profiles | :s | chema | :url | :string",
+    "marginal_savings": 79.876828256433
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product:schema:url:string",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | :s | chema | :url | :string",
+    "marginal_savings": 79.876828256433
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_company_profile",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _company | _profile",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata_mcp_web_data_linkedin_company_profile",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _link | edin | _company | _profile",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_person_profile",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _person | _profile",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata_mcp_web_data_linkedin_person_profile",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _link | edin | _person | _profile",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_search",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | _search",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata_mcp_web_data_amazon_product_search",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _am | azon | _product | _search",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_get_text",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _get | _text",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_get_text",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _get | _text",
+    "marginal_savings": 79.68939703624315
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_company_reviews:required:num_of_reviews,url",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _company | _reviews | : | required | :num | _of | _reviews | ,url",
+    "marginal_savings": 79.52525804212563
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_job_listings:schema:url:string",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _job | _list | ings | :s | chema | :url | :string",
+    "marginal_savings": 79.52525804212563
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.crunchbase.com/organization/example-company\"},\"name\":\"brightdata-mcp_web_data_crunchbase_company\"}",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 30,
+    "current_len": 30,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .cr | unch | base | .com | / | organization | /example | -company | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _cr | unch | base | _company | \"}",
+    "marginal_savings": 79.41977083824908
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_posts(url)",
+    "original_freq": 25,
+    "current_freq": 25,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _posts | (url | )",
+    "marginal_savings": 79.38566201357355
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_bestbuy_products\"}",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _best | buy | _products | \"}",
+    "marginal_savings": 78.55844048495726
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_ebay_product\"}",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _e | bay | _product | \"}",
+    "marginal_savings": 78.55844048495726
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_posts:required:url",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _posts | : | required | :url",
+    "marginal_savings": 78.39294959021855
+  },
+  {
+    "token": "brightdata-mcp_web_data_reddit_posts(url)",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | ddit | _posts | (url | )",
+    "marginal_savings": 78.39294959021855
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_comments",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _comments",
+    "marginal_savings": 77.33333333333333
+  },
+  {
+    "token": "brightdata_mcp_web_data_youtube_comments",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _y | outube | _comments",
+    "marginal_savings": 77.33333333333333
+  },
+  {
+    "token": "brightdata_mcp_web_data_youtube_videos",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _y | outube | _videos",
+    "marginal_savings": 77.33333333333333
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_videos",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _videos",
+    "marginal_savings": 77.33333333333333
+  },
+  {
+    "token": "brightdata_mcp_web_data_crunchbase_company",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _cr | unch | base | _company",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata-mcp_web_data_crunchbase_company",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _cr | unch | base | _company",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_get_html",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _get | _html",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_wait_for",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _wait | _for",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_get_html",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _get | _html",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_wait_for",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _wait | _for",
+    "marginal_savings": 76.84334714209162
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_comments:required:url",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _comments | : | required | :url",
+    "marginal_savings": 76.54862707908163
+  },
+  {
+    "token": "brightdata-mcp_web_data_homedepot_products(url)",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _h | omed | ep | ot | _products | (url | )",
+    "marginal_savings": 76.54862707908163
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_company_reviews(num_of_reviews,url)",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _company | _reviews | (num | _of | _reviews | ,url | )",
+    "marginal_savings": 76.43671518695338
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_job_listings:required:url",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _job | _list | ings | : | required | :url",
+    "marginal_savings": 76.43671518695338
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_profiles:required:url",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _profiles | : | required | :url",
+    "marginal_savings": 76.2102355330306
+  },
+  {
+    "token": "brightdata-mcp_web_data_zoominfo_company_profile(url)",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile | (url | )",
+    "marginal_savings": 76.2102355330306
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_profiles:required:url",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _profiles | : | required | :url",
+    "marginal_savings": 76.2102355330306
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product:required:url",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | : | required | :url",
+    "marginal_savings": 76.2102355330306
+  },
+  {
+    "token": "brightdata-mcp_web_data_x_posts:schema:url:string",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _x | _posts | :s | chema | :url | :string",
+    "marginal_savings": 76.2102355330306
+  },
+  {
+    "token": "brightdata_mcp_web_data_linkedin_posts",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _link | edin | _posts",
+    "marginal_savings": 74.66666666666667
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_posts",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _posts",
+    "marginal_savings": 74.66666666666667
+  },
+  {
+    "token": "brightdata-mcp_extract:required:url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | -m | cp | _extract | : | required | :url",
+    "marginal_savings": 74.24621202458748
+  },
+  {
+    "token": "brightdata-mcp_scrape_as_html",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rape | _as | _html",
+    "marginal_savings": 74.24621202458748
+  },
+  {
+    "token": "brightdata_mcp_scrape_as_html",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rape | _as | _html",
+    "marginal_savings": 74.24621202458748
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_posts(url)",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _posts | (url | )",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_go_forward",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _go | _forward",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_go_forward",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _go | _forward",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata_mcp_web_data_apple_app_store",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _app | le | _app | _store",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata_mcp_scraping_browser_go_back",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _sc | rap | ing | _browser | _go | _back",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata-mcp_scraping_browser_go_back",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _sc | rap | ing | _browser | _go | _back",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata-mcp_web_data_apple_app_store",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _app | le | _app | _store",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata_mcp_web_data_tiktok_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _t | ik | tok | _posts",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _posts",
+    "marginal_savings": 73.99729724794007
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.instagram.com/example_profile/\"},\"name\":\"brightdata-mcp_web_data_instagram_profiles\"}",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 26,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .instagram | .com | /example | _profile | / | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _inst | agram | _profiles | \"}",
+    "marginal_savings": 73.54355067681902
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_job_listings(url)",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _job | _list | ings | (url | )",
+    "marginal_savings": 73.22042590173025
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_comments(url)",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _comments | (url | )",
+    "marginal_savings": 73.03480905248766
+  },
+  {
+    "token": "brightdata-mcp_web_data_zillow_properties_listing:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing | :s | chema | :url | :string",
+    "marginal_savings": 72.96231904209186
+  },
+  {
+    "token": "brightdata-mcp_web_data_github_repository_file:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _g | ithub | _repository | _file | :s | chema | :url | :string",
+    "marginal_savings": 72.96231904209186
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_profiles:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _profiles | :s | chema | :url | :string",
+    "marginal_savings": 72.96231904209186
+  },
+  {
+    "token": "brightdata-mcp_web_data_x_posts:required:url",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _x | _posts | : | required | :url",
+    "marginal_savings": 72.36272269866328
+  },
+  {
+    "token": "brightdata-mcp_web_data_zillow_properties_listing:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing | : | required | :url",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_comments:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _comments | :s | chema | :url | :string",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_github_repository_file:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _g | ithub | _repository | _file | : | required | :url",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_shopping:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _sh | opping | :s | chema | :url | :string",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_posts:schema:url:string",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _posts | :s | chema | :url | :string",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_profiles:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _profiles | : | required | :url",
+    "marginal_savings": 69.89222472437888
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_profiles(url)",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _profiles | (url | )",
+    "marginal_savings": 69.34760925288563
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_profiles(url)",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _profiles | (url | )",
+    "marginal_savings": 69.34760925288563
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product(url)",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | (url | )",
+    "marginal_savings": 69.34760925288563
+  },
+  {
+    "token": "brightdata-mcp_web_data_homedepot_products",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _h | omed | ep | ot | _products",
+    "marginal_savings": 69.34760925288563
+  },
+  {
+    "token": "brightdata_mcp_web_data_homedepot_products",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _h | omed | ep | ot | _products",
+    "marginal_savings": 69.34760925288563
+  },
+  {
+    "token": "brightdata_mcp_web_data_reddit_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _re | ddit | _posts",
+    "marginal_savings": 69.33333333333333
+  },
+  {
+    "token": "brightdata-mcp_web_data_reddit_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _re | ddit | _posts",
+    "marginal_savings": 69.33333333333333
+  },
+  {
+    "token": "arguments:keyword,pages_to_search,url",
+    "original_freq": 28,
+    "current_freq": 28,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "arguments | : | keyword | ,p | ages | _to | _search | ,url",
+    "marginal_savings": 69.29646455628165
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.zoominfo.com/c/example-company/123456\"},\"name\":\"brightdata-mcp_web_data_zoominfo_company_profile\"}",
+    "original_freq": 12,
+    "current_freq": 12,
+    "original_len": 35,
+    "current_len": 35,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .zoom | info | .com | /c | /example | -company | / | 1 | 2 | 3 | 4 | 5 | 6 | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile | \"}",
+    "marginal_savings": 68.96458718584695
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_marketplace_listings:schema:url:string",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _market | place | _list | ings | :s | chema | :url | :string",
+    "marginal_savings": 68.68090467274486
+  },
+  {
+    "token": "brightdata-mcp_web_data_booking_hotel_listings:schema:url:string",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 15,
+    "current_len": 15,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _booking | _hot | el | _list | ings | :s | chema | :url | :string",
+    "marginal_savings": 68.68090467274486
+  },
+  {
+    "token": "brightdata-mcp_web_data_zoominfo_company_profile",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _zoom | info | _company | _profile",
+    "marginal_savings": 68.30519745963699
+  },
+  {
+    "token": "brightdata_mcp_web_data_zoominfo_company_profile",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _zoom | info | _company | _profile",
+    "marginal_savings": 68.30519745963699
+  },
+  {
+    "token": "brightdata-mcp_web_data_x_posts(url)",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _x | _posts | (url | )",
+    "marginal_savings": 68.30519745963699
+  },
+  {
+    "token": "arguments:selector",
+    "original_freq": 59,
+    "current_freq": 59,
+    "original_len": 3,
+    "current_len": 3,
+    "tokenizer_view": "arguments | : | selector",
+    "marginal_savings": 68.12733176437584
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_comments:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _comments | : | required | :url",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata-mcp_web_data_zillow_properties_listing(url)",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing | (url | )",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_shopping:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _sh | opping | : | required | :url",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_posts:required:url",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _posts | : | required | :url",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata-mcp_web_data_github_repository_file(url)",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _g | ithub | _repository | _file | (url | )",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_profiles(url)",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _profiles | (url | )",
+    "marginal_savings": 66.68395609140178
+  },
+  {
+    "token": "brightdata_mcp_web_data_linkedin_job_listings",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _link | edin | _job | _list | ings",
+    "marginal_savings": 66.332495807108
+  },
+  {
+    "token": "brightdata-mcp_web_data_linkedin_job_listings",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _link | edin | _job | _list | ings",
+    "marginal_savings": 66.332495807108
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_marketplace_listings:required:url",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _market | place | _list | ings | : | required | :url",
+    "marginal_savings": 66.01352675236882
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_reviews:schema:url:string",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product | _reviews | :s | chema | :url | :string",
+    "marginal_savings": 66.01352675236882
+  },
+  {
+    "token": "brightdata-mcp_web_data_booking_hotel_listings:required:url",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _booking | _hot | el | _list | ings | : | required | :url",
+    "marginal_savings": 66.01352675236882
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_etsy_products\"}",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _ | etsy | _products | \"}",
+    "marginal_savings": 65.46536707079771
+  },
+  {
+    "token": "brightdata_mcp_web_data_tiktok_comments",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _t | ik | tok | _comments",
+    "marginal_savings": 65.45914756548545
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_comments",
+    "original_freq": 23,
+    "current_freq": 23,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _comments",
+    "marginal_savings": 65.45914756548545
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.zillow.com/homedetails/12345678\"},\"name\":\"brightdata-mcp_web_data_zillow_properties_listing\"}",
+    "original_freq": 11,
+    "current_freq": 11,
+    "original_len": 37,
+    "current_len": 37,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .z | illow | .com | /h | omed | etails | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing | \"}",
+    "marginal_savings": 65.10199897292149
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.facebook.com/examplepost123\"},\"name\":\"brightdata-mcp_web_data_facebook_posts\"}",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 27,
+    "current_len": 27,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .facebook | .com | /example | post | 1 | 2 | 3 | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _posts | \"}",
+    "marginal_savings": 65.04813032869784
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _posts",
+    "marginal_savings": 64.34671708797582
+  },
+  {
+    "token": "brightdata_mcp_web_data_facebook_posts",
+    "original_freq": 26,
+    "current_freq": 26,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _facebook | _posts",
+    "marginal_savings": 64.34671708797582
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_profiles",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _profiles",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_instagram_profiles",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _inst | agram | _profiles",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_youtube_profiles",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _y | outube | _profiles",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_youtube_profiles",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _y | outube | _profiles",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_amazon_product",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _am | azon | _product",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _am | azon | _product",
+    "marginal_savings": 64.0
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/in/johndoe\"},\"name\":\"brightdata-mcp_web_data_linkedin_person_profile\"}",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 29,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /in | /j | oh | nd | oe | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_person_profile | \"}",
+    "marginal_savings": 63.727937358744
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_events:schema:url:string",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _events | :s | chema | :url | :string",
+    "marginal_savings": 63.50852961085884
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_comments(url)",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _comments | (url | )",
+    "marginal_savings": 63.31738236133036
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_shopping(url)",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _sh | opping | (url | )",
+    "marginal_savings": 63.31738236133036
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_play_store:schema:url:string",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _play | _store | :s | chema | :url | :string",
+    "marginal_savings": 63.23582236967612
+  },
+  {
+    "token": "brightdata-mcp_web_data_bestbuy_products:schema:url:string",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _best | buy | _products | :s | chema | :url | :string",
+    "marginal_savings": 63.23582236967612
+  },
+  {
+    "token": "brightdata-mcp_web_data_booking_hotel_listings(url)",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _booking | _hot | el | _list | ings | (url | )",
+    "marginal_savings": 63.23582236967612
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.facebook.com/events/1234567890123456\"},\"name\":\"brightdata-mcp_web_data_facebook_events\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 40,
+    "current_len": 40,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .facebook | .com | /events | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _facebook | _events | \"}",
+    "marginal_savings": 61.66441437328339
+  },
+  {
+    "token": "arguments:first_name,last_name,url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "arguments | :first | _name | ,last | _name | ,url",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "arguments:extraction_prompt,url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "arguments | : | ex | traction | _prompt | ,url",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "brightdata-mcp_search_engine",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "bright | data | -m | cp | _search | _engine",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "brightdata_mcp_search_engine",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "bright | data | _m | cp | _search | _engine",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "brightdata-mcp_session_stats",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "bright | data | -m | cp | _session | _stats",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "brightdata_mcp_session_stats",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 6,
+    "tokenizer_view": "bright | data | _m | cp | _session | _stats",
+    "marginal_savings": 61.237243569579455
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_play_store:required:url",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _play | _store | : | required | :url",
+    "marginal_savings": 60.3331031303159
+  },
+  {
+    "token": "brightdata-mcp_web_data_bestbuy_products:required:url",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _best | buy | _products | : | required | :url",
+    "marginal_savings": 60.3331031303159
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_events:required:url",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _events | : | required | :url",
+    "marginal_savings": 60.30226891555272
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_posts(url)",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _posts | (url | )",
+    "marginal_savings": 60.30226891555272
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_marketplace_listings(url)",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _market | place | _list | ings | (url | )",
+    "marginal_savings": 59.90762119232475
+  },
+  {
+    "token": "brightdata-mcp_web_data_ebay_product:schema:url:string",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _e | bay | _product | :s | chema | :url | :string",
+    "marginal_savings": 59.90762119232475
+  },
+  {
+    "token": "brightdata-mcp_web_data_zillow_properties_listing",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | illow | _properties | _listing",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata_mcp_web_data_zillow_properties_listing",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _z | illow | _properties | _listing",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata_mcp_web_data_github_repository_file",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _g | ithub | _repository | _file",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata-mcp_web_data_github_repository_file",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _g | ithub | _repository | _file",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata_mcp_web_data_tiktok_profiles",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _t | ik | tok | _profiles",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_profiles",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _profiles",
+    "marginal_savings": 59.76704777718236
+  },
+  {
+    "token": "brightdata-mcp_web_data_x_posts",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _x | _posts",
+    "marginal_savings": 59.39696961966999
+  },
+  {
+    "token": "brightdata_mcp_web_data_x_posts",
+    "original_freq": 24,
+    "current_freq": 24,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _x | _posts",
+    "marginal_savings": 59.39696961966999
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_company_reviews",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _company | _reviews",
+    "marginal_savings": 58.666666666666664
+  },
+  {
+    "token": "brightdata_mcp_web_data_facebook_company_reviews",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _facebook | _company | _reviews",
+    "marginal_savings": 58.666666666666664
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_instagram_reels\"}",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _inst | agram | _re | els | \"}",
+    "marginal_savings": 58.20379556508165
+  },
+  {
+    "token": "brightdata_mcp_web_data_facebook_marketplace_listings",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _facebook | _market | place | _list | ings",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_marketplace_listings",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _market | place | _list | ings",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata-mcp_web_data_booking_hotel_listings",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _booking | _hot | el | _list | ings",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata_mcp_web_data_booking_hotel_listings",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _booking | _hot | el | _list | ings",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_play_store(url)",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _play | _store | (url | )",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata-mcp_web_data_bestbuy_products(url)",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _best | buy | _products | (url | )",
+    "marginal_savings": 57.28715546977509
+  },
+  {
+    "token": "brightdata-mcp_web_data_ebay_product:required:url",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _e | bay | _product | : | required | :url",
+    "marginal_savings": 57.15767664977295
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_events(url)",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _events | (url | )",
+    "marginal_savings": 56.92099788303082
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_zara_products\"}",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _z | ara | _products | \"}",
+    "marginal_savings": 56.73665146135802
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_comments",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _comments",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_instagram_comments",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _inst | agram | _comments",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_posts",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _posts",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_google_shopping",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _google | _sh | opping",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "brightdata_mcp_web_data_instagram_posts",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _inst | agram | _posts",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_shopping",
+    "original_freq": 21,
+    "current_freq": 21,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _sh | opping",
+    "marginal_savings": 56.0
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tiktok.com/@username/video/1234567890123456789\"},\"name\":\"brightdata-mcp_web_data_tiktok_posts\"}",
+    "original_freq": 9,
+    "current_freq": 9,
+    "original_len": 49,
+    "current_len": 40,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | ik | tok | .com | /@ | username | /video | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | \"},\" | name | \":\" | brightdata-mcp_web_data_tiktok_posts | \"}",
+    "marginal_savings": 55.497972935955055
+  },
+  {
+    "token": "brightdata-mcp_web_data_ebay_product(url)",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _e | bay | _product | (url | )",
+    "marginal_savings": 54.27204202399745
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.amazon.com/dp/B08N5WRWNW\"},\"name\":\"brightdata-mcp_web_data_amazon_product_reviews\"}",
+    "original_freq": 11,
+    "current_freq": 11,
+    "original_len": 34,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .amazon | .com | /d | p | /B | 0 | 8 | N | 5 | WR | WN | W | \"},\" | name | \":\" | brightdata-mcp_web_data_amazon_product | _reviews | \"}",
+    "marginal_savings": 53.93193716300061
+  },
+  {
+    "token": "arguments:days_limit,url",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "arguments | : | days | _limit | ,url",
+    "marginal_savings": 53.66563145999495
+  },
+  {
+    "token": "brightdata-mcp_extract",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "bright | data | -m | cp | _extract",
+    "marginal_savings": 53.66563145999495
+  },
+  {
+    "token": "brightdata_mcp_extract",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "bright | data | _m | cp | _extract",
+    "marginal_savings": 53.66563145999495
+  },
+  {
+    "token": "arguments:engine,query",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "arguments | : | engine | , | query",
+    "marginal_savings": 53.66563145999495
+  },
+  {
+    "token": "brightdata-mcp_web_data_etsy_products:schema:url:string",
+    "original_freq": 16,
+    "current_freq": 16,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _ | etsy | _products | :s | chema | :url | :string",
+    "marginal_savings": 53.251218837622
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_walmart_product\"}",
+    "original_freq": 12,
+    "current_freq": 12,
+    "original_len": 21,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _w | almart | _product | \"}",
+    "marginal_savings": 52.37229365663817
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_reels:schema:url:string",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _re | els | :s | chema | :url | :string",
+    "marginal_savings": 52.11594217292276
+  },
+  {
+    "token": "arguments:num_of_comments,url",
+    "original_freq": 29,
+    "current_freq": 29,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "arguments | :num | _of | _comments | ,url",
+    "marginal_savings": 51.876777077995115
+  },
+  {
+    "token": "brightdata-mcp_web_data_etsy_products:required:url",
+    "original_freq": 16,
+    "current_freq": 16,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _ | etsy | _products | : | required | :url",
+    "marginal_savings": 50.80682368868707
+  },
+  {
+    "token": "brightdata_mcp_web_data_google_play_store",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _google | _play | _store",
+    "marginal_savings": 50.666666666666664
+  },
+  {
+    "token": "brightdata-mcp_web_data_google_play_store",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _google | _play | _store",
+    "marginal_savings": 50.666666666666664
+  },
+  {
+    "token": "brightdata-mcp_web_data_bestbuy_products",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _best | buy | _products",
+    "marginal_savings": 50.666666666666664
+  },
+  {
+    "token": "brightdata_mcp_web_data_bestbuy_products",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _best | buy | _products",
+    "marginal_savings": 50.666666666666664
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_reels:required:url",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _re | els | : | required | :url",
+    "marginal_savings": 49.923017660270624
+  },
+  {
+    "token": "brightdata_mcp_web_data_facebook_events",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _facebook | _events",
+    "marginal_savings": 49.49747468305832
+  },
+  {
+    "token": "brightdata-mcp_web_data_facebook_events",
+    "original_freq": 20,
+    "current_freq": 20,
+    "original_len": 8,
+    "current_len": 8,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _facebook | _events",
+    "marginal_savings": 49.49747468305832
+  },
+  {
+    "token": "brightdata-mcp_web_data_etsy_products(url)",
+    "original_freq": 16,
+    "current_freq": 16,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _ | etsy | _products | (url | )",
+    "marginal_savings": 48.24181513244218
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/company/example-company\"},\"name\":\"brightdata-mcp_web_data_linkedin_company_profile\"}",
+    "original_freq": 12,
+    "current_freq": 12,
+    "original_len": 27,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /company | /example | -company | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_company_profile | \"}",
+    "marginal_savings": 48.083261120685236
+  },
+  {
+    "token": "brightdata_mcp_web_data_ebay_product",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _e | bay | _product",
+    "marginal_savings": 48.0
+  },
+  {
+    "token": "brightdata-mcp_web_data_ebay_product",
+    "original_freq": 18,
+    "current_freq": 18,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _e | bay | _product",
+    "marginal_savings": 48.0
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/in/john-doe\"},\"name\":\"brightdata-mcp_web_data_linkedin_person_profile\"}",
+    "original_freq": 11,
+    "current_freq": 11,
+    "original_len": 29,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /in | /j | ohn | -d | oe | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_person_profile | \"}",
+    "marginal_savings": 46.7338207297456
+  },
+  {
+    "token": "arguments:selector,submit,text",
+    "original_freq": 30,
+    "current_freq": 30,
+    "original_len": 6,
+    "current_len": 4,
+    "tokenizer_view": "arguments:selector | , | submit | ,text",
+    "marginal_savings": 45.0
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.instagram.com/p/EXAMPLE123/\"},\"name\":\"brightdata-mcp_web_data_instagram_comments\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 30,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .instagram | .com | /p | / | EXAMPLE | 1 | 2 | 3 | / | \"},\" | name | \":\" | brightdata-mcp_web_data_instagram_comments | \"}",
+    "marginal_savings": 44.77215043467819
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.instagram.com/p/EXAMPLE123/\"},\"name\":\"brightdata-mcp_web_data_instagram_posts\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 30,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .instagram | .com | /p | / | EXAMPLE | 1 | 2 | 3 | / | \"},\" | name | \":\" | brightdata-mcp_web_data_instagram_posts | \"}",
+    "marginal_savings": 44.77215043467819
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_tiktok_shop\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _t | ik | tok | _shop | \"}",
+    "marginal_savings": 44.77215043467819
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_product:schema:url:string",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _product | :s | chema | :url | :string",
+    "marginal_savings": 43.266615305567875
+  },
+  {
+    "token": "brightdata-mcp_web_data_zara_products:schema:url:string",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | ara | _products | :s | chema | :url | :string",
+    "marginal_savings": 43.266615305567875
+  },
+  {
+    "token": "brightdata_mcp_web_data_instagram_reels",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _inst | agram | _re | els",
+    "marginal_savings": 42.690748412273116
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_reels",
+    "original_freq": 15,
+    "current_freq": 15,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _inst | agram | _re | els",
+    "marginal_savings": 42.690748412273116
+  },
+  {
+    "token": "brightdata-mcp_web_data_etsy_products",
+    "original_freq": 16,
+    "current_freq": 16,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _ | etsy | _products",
+    "marginal_savings": 42.666666666666664
+  },
+  {
+    "token": "brightdata_mcp_web_data_etsy_products",
+    "original_freq": 16,
+    "current_freq": 16,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _ | etsy | _products",
+    "marginal_savings": 42.666666666666664
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.reuters.com/article/example-news-report\"},\"name\":\"brightdata-mcp_web_data_reuter_news\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 28,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .re | uters | .com | /article | /example | -news | -report | \"},\" | name | \":\" | brightdata-mcp_web_data_reuter_news | \"}",
+    "marginal_savings": 42.485291572496
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.facebook.com/marketplace/item/1234567890\"},\"name\":\"brightdata-mcp_web_data_facebook_marketplace_listings\"}",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 40,
+    "current_len": 30,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .facebook | .com | /m | arket | place | /item | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | \"},\" | name | \":\" | brightdata-mcp_web_data_facebook_marketplace_listings | \"}",
+    "marginal_savings": 42.357211113732845
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_product:required:url",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _product | : | required | :url",
+    "marginal_savings": 41.280544247058245
+  },
+  {
+    "token": "brightdata-mcp_web_data_zara_products:required:url",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | ara | _products | : | required | :url",
+    "marginal_savings": 41.280544247058245
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.google.com/shopping/product/123456789\"},\"name\":\"brightdata-mcp_web_data_google_shopping\"}",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 36,
+    "current_len": 28,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .google | .com | /sh | opping | /product | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | \"},\" | name | \":\" | brightdata-mcp_web_data_google_shopping | \"}",
+    "marginal_savings": 40.82016308499654
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.reddit.com/r/example_post\"},\"name\":\"brightdata-mcp_web_data_reddit_posts\"}",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 26,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .reddit | .com | /r | /example | _post | \"},\" | name | \":\" | brightdata-mcp_web_data_reddit_posts | \"}",
+    "marginal_savings": 40.069384267237695
+  },
+  {
+    "token": "arguments:num_of_reviews,url",
+    "original_freq": 22,
+    "current_freq": 22,
+    "original_len": 5,
+    "current_len": 5,
+    "tokenizer_view": "arguments | :num | _of | _reviews | ,url",
+    "marginal_savings": 39.354796403996296
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_product(url)",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _product | (url | )",
+    "marginal_savings": 39.196474795109275
+  },
+  {
+    "token": "brightdata-mcp_web_data_zara_products(url)",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 11,
+    "current_len": 11,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | ara | _products | (url | )",
+    "marginal_savings": 39.196474795109275
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"#submit-button\"},\"name\":\"brightdata-mcp_scraping_browser_click\"}",
+    "original_freq": 11,
+    "current_freq": 11,
+    "original_len": 21,
+    "current_len": 13,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | # | submit | -button | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_click | \"}",
+    "marginal_savings": 36.610212950865126
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tiktok.com/\"},\"name\":\"brightdata-mcp_web_data_tiktok_comments\"}",
+    "original_freq": 9,
+    "current_freq": 9,
+    "original_len": 27,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | ik | tok | .com | / | \"},\" | name | \":\" | brightdata-mcp_web_data_tiktok_comments | \"}",
+    "marginal_savings": 36.062445840513924
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"<string>\"},\"name\":\"brightdata-mcp_web_data_walmart_seller\"}",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 22,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | < | string | > | \"},\" | name | \":\" | bright | data | -m | cp | _web | _data | _w | almart | _s | eller | \"}",
+    "marginal_savings": 35.81772034774255
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://x.com/example_post_url\"},\"name\":\"brightdata-mcp_web_data_x_posts\"}",
+    "original_freq": 9,
+    "current_freq": 9,
+    "original_len": 24,
+    "current_len": 17,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | x | .com | /example | _post | _url | \"},\" | name | \":\" | brightdata-mcp_web_data_x_posts | \"}",
+    "marginal_savings": 34.92513000523195
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_shop:schema:url:string",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _shop | :s | chema | :url | :string",
+    "marginal_savings": 34.743961448615174
+  },
+  {
+    "token": "brightdata_mcp_web_data_walmart_product",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _w | almart | _product",
+    "marginal_savings": 34.666666666666664
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_product",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _product",
+    "marginal_savings": 34.666666666666664
+  },
+  {
+    "token": "brightdata_mcp_web_data_zara_products",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _z | ara | _products",
+    "marginal_savings": 34.666666666666664
+  },
+  {
+    "token": "brightdata-mcp_web_data_zara_products",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 9,
+    "current_len": 9,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _z | ara | _products",
+    "marginal_savings": 34.666666666666664
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tiktok.com/@exampleusername\"},\"name\":\"brightdata-mcp_web_data_tiktok_profiles\"}",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 29,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | ik | tok | .com | /@ | example | username | \"},\" | name | \":\" | brightdata-mcp_web_data_tiktok_profiles | \"}",
+    "marginal_savings": 33.988233257996804
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_reviews:required:url",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 13,
+    "current_len": 5,
+    "tokenizer_view": "brightdata-mcp_web_data_amazon_product | _reviews | : | required | :url",
+    "marginal_savings": 33.988233257996804
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_shop:required:url",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _shop | : | required | :url",
+    "marginal_savings": 33.28201177351375
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.homedepot.com/p/Some-Product-ID\"},\"name\":\"brightdata-mcp_web_data_homedepot_products\"}",
+    "original_freq": 7,
+    "current_freq": 7,
+    "original_len": 34,
+    "current_len": 24,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .h | omed | ep | ot | .com | /p | / | Some | - | Product | -ID | \"},\" | name | \":\" | brightdata-mcp_web_data_homedepot_products | \"}",
+    "marginal_savings": 32.86398738234097
+  },
+  {
+    "token": "{\"arguments\":{\"first_name\":\"John\",\"last_name\":\"Doe\",\"url\":\"https://www.linkedin.com/in/john-doe\"},\"name\":\"brightdata-mcp_web_data_linkedin_people_search\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 40,
+    "current_len": 31,
+    "tokenizer_view": "{\" | arguments | \":{\" | first | _name | \":\" | John | \",\" | last | _name | \":\" | D | oe | \",\" | url | \":\" | https | :// | www | .linkedin | .com | /in | /j | ohn | -d | oe | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_people_search | \"}",
+    "marginal_savings": 32.32895436481949
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tiktok.com/@example/video/1234567890\"},\"name\":\"brightdata-mcp_web_data_tiktok_comments\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 40,
+    "current_len": 31,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | ik | tok | .com | /@ | example | /video | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | \"},\" | name | \":\" | brightdata-mcp_web_data_tiktok_comments | \"}",
+    "marginal_savings": 32.32895436481949
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.instagram.com/reel/EXAMPLE123/\"},\"name\":\"brightdata-mcp_web_data_instagram_reels\"}",
+    "original_freq": 7,
+    "current_freq": 7,
+    "original_len": 32,
+    "current_len": 23,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .instagram | .com | /re | el | / | EXAMPLE | 1 | 2 | 3 | / | \"},\" | name | \":\" | brightdata-mcp_web_data_instagram_reels | \"}",
+    "marginal_savings": 32.11121976478952
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_shop(url)",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _shop | (url | )",
+    "marginal_savings": 31.75426480542942
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://play.google.com/store/apps/details?id=com.example.app\"},\"name\":\"brightdata-mcp_web_data_google_play_store\"}",
+    "original_freq": 7,
+    "current_freq": 7,
+    "original_len": 30,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | play | .google | .com | /store | /apps | /details | ?id | =com | .example | .app | \"},\" | name | \":\" | brightdata-mcp_web_data_google_play_store | \"}",
+    "marginal_savings": 31.340505304274732
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.google.com/shopping/product/1234567890\"},\"name\":\"brightdata-mcp_web_data_google_shopping\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 37,
+    "current_len": 29,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .google | .com | /sh | opping | /product | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | \"},\" | name | \":\" | brightdata-mcp_web_data_google_shopping | \"}",
+    "marginal_savings": 31.196816813744714
+  },
+  {
+    "token": "arguments:selector,timeout",
+    "original_freq": 27,
+    "current_freq": 27,
+    "original_len": 5,
+    "current_len": 3,
+    "tokenizer_view": "arguments:selector | , | timeout",
+    "marginal_savings": 31.176914536239792
+  },
+  {
+    "token": "{\"arguments\":{\"keyword\":\"wireless headphones\",\"pages_to_search\":\"1\",\"url\":\"https://www.amazon.com\"},\"name\":\"brightdata-mcp_web_data_amazon_product_search\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 36,
+    "current_len": 27,
+    "tokenizer_view": "{\" | arguments | \":{\" | keyword | \":\" | wire | less |  headphones | \",\" | pages | _to | _search | \":\" | 1 | \",\" | url | \":\" | https | :// | www | .amazon | .com | \"},\" | name | \":\" | brightdata-mcp_web_data_amazon_product_search | \"}",
+    "marginal_savings": 30.02221399786054
+  },
+  {
+    "token": "{\"arguments\":{\"days_limit\":\"3\",\"url\":\"https://www.google.com/maps/place/ExamplePlaceURL\"},\"name\":\"brightdata-mcp_web_data_google_maps_reviews\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 34,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | days | _limit | \":\" | 3 | \",\" | url | \":\" | https | :// | www | .google | .com | /maps | /place | / | Example | Place | URL | \"},\" | name | \":\" | brightdata-mcp_web_data_google_maps_reviews | \"}",
+    "marginal_savings": 29.417420270727607
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_reviews\":\"50\",\"url\":\"https://www.facebook.com/ExampleCompany\"},\"name\":\"brightdata-mcp_web_data_facebook_company_reviews\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 33,
+    "current_len": 25,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _reviews | \":\" | 5 | 0 | \",\" | url | \":\" | https | :// | www | .facebook | .com | / | Example | Company | \"},\" | name | \":\" | brightdata-mcp_web_data_facebook_company_reviews | \"}",
+    "marginal_savings": 28.8
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_reviews(url)",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 12,
+    "current_len": 4,
+    "tokenizer_view": "brightdata-mcp_web_data_amazon_product | _reviews | (url | )",
+    "marginal_savings": 28.5
+  },
+  {
+    "token": "brightdata-mcp_web_data_tiktok_shop",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _t | ik | tok | _shop",
+    "marginal_savings": 28.46049894151541
+  },
+  {
+    "token": "brightdata_mcp_web_data_tiktok_shop",
+    "original_freq": 10,
+    "current_freq": 10,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _t | ik | tok | _shop",
+    "marginal_savings": 28.46049894151541
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_seller:schema:url:string",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 14,
+    "current_len": 14,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _s | eller | :s | chema | :url | :string",
+    "marginal_savings": 27.795169158892136
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/jobs/view/software-engineer-123456789/\"},\"name\":\"brightdata-mcp_web_data_linkedin_job_listings\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 42,
+    "current_len": 32,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /j | obs | /view | /software | -engine | er | - | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | / | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_job_listings | \"}",
+    "marginal_savings": 27.400387770978714
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/jobs/search/?currentJobId=123456789\"},\"name\":\"brightdata-mcp_web_data_linkedin_job_listings\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 42,
+    "current_len": 32,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /j | obs | /search | /? | current | Job | Id | = | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_job_listings | \"}",
+    "marginal_savings": 27.400387770978714
+  },
+  {
+    "token": "{\"arguments\":{\"keyword\":\"Bluetooth-enabled over-ear wireless headphones\",\"pages_to_search\":\"1\",\"url\":\"https://www.amazon.com\"},\"name\":\"brightdata-mcp_web_data_amazon_product_search\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 40,
+    "current_len": 31,
+    "tokenizer_view": "{\" | arguments | \":{\" | keyword | \":\" | Bluetooth | -enabled |  over | - | ear |  wireless |  headphones | \",\" | pages | _to | _search | \":\" | 1 | \",\" | url | \":\" | https | :// | www | .amazon | .com | \"},\" | name | \":\" | brightdata-mcp_web_data_amazon_product_search | \"}",
+    "marginal_savings": 26.940795304016238
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.homedepot.com/p/example-product-url\"},\"name\":\"brightdata-mcp_web_data_homedepot_products\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 32,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .h | omed | ep | ot | .com | /p | /example | -product | -url | \"},\" | name | \":\" | brightdata-mcp_web_data_homedepot_products | \"}",
+    "marginal_savings": 26.863290260806913
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_seller:required:url",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 13,
+    "current_len": 13,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _s | eller | : | required | :url",
+    "marginal_savings": 26.625609418811
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.etsy.com/listing/123456789/example-product\"},\"name\":\"brightdata-mcp_web_data_etsy_products\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 38,
+    "current_len": 30,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | . | etsy | .com | /list | ing | / | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | /example | -product | \"},\" | name | \":\" | brightdata-mcp_web_data_etsy_products | \"}",
+    "marginal_savings": 26.47325694608303
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.homedepot.com/p/example-product\"},\"name\":\"brightdata-mcp_web_data_homedepot_products\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 31,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .h | omed | ep | ot | .com | /p | /example | -product | \"},\" | name | \":\" | brightdata-mcp_web_data_homedepot_products | \"}",
+    "marginal_savings": 26.186146828319085
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".main-content\",\"timeout\":30000},\"name\":\"brightdata-mcp_scraping_browser_wait_for\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 30,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | main | -content | \",\" | timeout | \": | 3 | 0 | 0 | 0 | 0 | },\" | name | \":\" | brightdata-mcp_scraping_browser_wait_for | \"}",
+    "marginal_savings": 26.186146828319085
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.bestbuy.com/site/example-product-id\"},\"name\":\"brightdata-mcp_web_data_bestbuy_products\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 28,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .best | buy | .com | /site | /example | -product | -id | \"},\" | name | \":\" | brightdata-mcp_web_data_bestbuy_products | \"}",
+    "marginal_savings": 25.4911749434976
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.reuters.com/article/example-news-article\"},\"name\":\"brightdata-mcp_web_data_reuter_news\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 28,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .re | uters | .com | /article | /example | -news | -article | \"},\" | name | \":\" | brightdata-mcp_web_data_reuter_news | \"}",
+    "marginal_savings": 25.4911749434976
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tiktok.com/@exampleuser\"},\"name\":\"brightdata-mcp_web_data_tiktok_profiles\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 29,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | ik | tok | .com | /@ | example | user | \"},\" | name | \":\" | brightdata-mcp_web_data_tiktok_profiles | \"}",
+    "marginal_savings": 25.4911749434976
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_seller(url)",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 12,
+    "current_len": 12,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _s | eller | (url | )",
+    "marginal_savings": 25.403411844343534
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.youtube.com/channel/UC123456789\"},\"name\":\"brightdata-mcp_web_data_youtube_profiles\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 35,
+    "current_len": 27,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .youtube | .com | /channel | / | UC | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | \"},\" | name | \":\" | brightdata-mcp_web_data_youtube_profiles | \"}",
+    "marginal_savings": 25.018511664883782
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/company/microsoft/\"},\"name\":\"brightdata-mcp_web_data_linkedin_company_profile\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 28,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /company | /m | icrosoft | / | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_company_profile | \"}",
+    "marginal_savings": 24.77689925802067
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.youtube.com/user/ExampleChannel\"},\"name\":\"brightdata-mcp_web_data_youtube_profiles\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 27,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .youtube | .com | /user | / | Example | Channel | \"},\" | name | \":\" | brightdata-mcp_web_data_youtube_profiles | \"}",
+    "marginal_savings": 24.77689925802067
+  },
+  {
+    "token": "{\"arguments\":{\"engine\":\"google\",\"query\":\"latest advancements in AI research\"},\"name\":\"brightdata-mcp_search_engine\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 24,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | engine | \":\" | google | \",\" | query | \":\" | latest |  advancements |  in |  AI |  research | \"},\" | name | \":\" | brightdata-mcp_search_engine | \"}",
+    "marginal_savings": 24.77689925802067
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.reddit.com/r/example_thread_link\"},\"name\":\"brightdata-mcp_web_data_reddit_posts\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 27,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .reddit | .com | /r | /example | _thread | _link | \"},\" | name | \":\" | brightdata-mcp_web_data_reddit_posts | \"}",
+    "marginal_savings": 24.77689925802067
+  },
+  {
+    "token": "{\"arguments\":{\"days_limit\":\"3\",\"url\":\"https://www.google.com/maps/place/Example+Location\"},\"name\":\"brightdata-mcp_web_data_google_maps_reviews\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 34,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | days | _limit | \":\" | 3 | \",\" | url | \":\" | https | :// | www | .google | .com | /maps | /place | / | Example | + | Location | \"},\" | name | \":\" | brightdata-mcp_web_data_google_maps_reviews | \"}",
+    "marginal_savings": 24.514516892273004
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_comments\":\"20\",\"url\":\"https://www.youtube.com/watch?v=example\"},\"name\":\"brightdata-mcp_web_data_youtube_comments\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 34,
+    "current_len": 26,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _comments | \":\" | 2 | 0 | \",\" | url | \":\" | https | :// | www | .youtube | .com | /watch | ?v | = | example | \"},\" | name | \":\" | brightdata-mcp_web_data_youtube_comments | \"}",
+    "marginal_savings": 24.514516892273004
+  },
+  {
+    "token": "{\"arguments\":{\"engine\":\"google\",\"query\":\"artificial intelligence trends\"},\"name\":\"brightdata-mcp_search_engine\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 23,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | engine | \":\" | google | \",\" | query | \":\" | art | ificial |  intelligence |  trends | \"},\" | name | \":\" | brightdata-mcp_search_engine | \"}",
+    "marginal_savings": 24.041630560342618
+  },
+  {
+    "token": "{\"arguments\":{\"num_of_reviews\":\"50\",\"url\":\"https://www.facebook.com/Tesla\"},\"name\":\"brightdata-mcp_web_data_facebook_company_reviews\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 33,
+    "current_len": 25,
+    "tokenizer_view": "{\" | arguments | \":{\" | num | _of | _reviews | \":\" | 5 | 0 | \",\" | url | \":\" | https | :// | www | .facebook | .com | /T | es | la | \"},\" | name | \":\" | brightdata-mcp_web_data_facebook_company_reviews | \"}",
+    "marginal_savings": 24.0
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\"#comment-section\",\"submit\":true,\"text\":\"This is my feedback\"},\"name\":\"brightdata-mcp_scraping_browser_type\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 32,
+    "current_len": 24,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | # | comment | -section | \",\" | submit | \": | true | ,\" | text | \":\" | This |  is |  my |  feedback | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_type | \"}",
+    "marginal_savings": 23.474276701672125
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".target-element\"},\"name\":\"brightdata-mcp_scraping_browser_scroll_to\"}",
+    "original_freq": 7,
+    "current_freq": 7,
+    "original_len": 22,
+    "current_len": 13,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | target | -element | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_scroll_to | \"}",
+    "marginal_savings": 23.297408241459625
+  },
+  {
+    "token": "brightdata_mcp_web_data_walmart_seller",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | _m | cp | _web | _data | _w | almart | _s | eller",
+    "marginal_savings": 22.76839915321233
+  },
+  {
+    "token": "brightdata-mcp_web_data_walmart_seller",
+    "original_freq": 8,
+    "current_freq": 8,
+    "original_len": 10,
+    "current_len": 10,
+    "tokenizer_view": "bright | data | -m | cp | _web | _data | _w | almart | _s | eller",
+    "marginal_savings": 22.76839915321233
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://play.google.com/store/apps/details?id=com.whatsapp\"},\"name\":\"brightdata-mcp_web_data_google_play_store\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 30,
+    "current_len": 22,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | play | .google | .com | /store | /apps | /details | ?id | =com | .wh | atsapp | \"},\" | name | \":\" | brightdata-mcp_web_data_google_play_store | \"}",
+    "marginal_savings": 22.386075217339094
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.crunchbase.com/organization/example-company\"},\"name\":\"brightdata-mcp_web_data_zoominfo_company_profile\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 30,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .cr | unch | base | .com | / | organization | /example | -company | \"},\" | name | \":\" | brightdata-mcp_web_data_zoominfo_company_profile | \"}",
+    "marginal_savings": 21.82178902359924
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.ebay.com/itm/example-product-id\"},\"name\":\"brightdata-mcp_web_data_ebay_product\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 29,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .e | bay | .com | / | itm | /example | -product | -id | \"},\" | name | \":\" | brightdata-mcp_web_data_ebay_product | \"}",
+    "marginal_savings": 21.82178902359924
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".login-button\",\"timeout\":30000},\"name\":\"brightdata-mcp_scraping_browser_wait_for\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 30,
+    "current_len": 21,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | login | -button | \",\" | timeout | \": | 3 | 0 | 0 | 0 | 0 | },\" | name | \":\" | brightdata-mcp_scraping_browser_wait_for | \"}",
+    "marginal_savings": 21.82178902359924
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.instagram.com/p/POST_ID_HERE\"},\"name\":\"brightdata-mcp_web_data_instagram_comments\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 28,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .instagram | .com | /p | / | POST | _ID | _HERE | \"},\" | name | \":\" | brightdata-mcp_web_data_instagram_comments | \"}",
+    "marginal_savings": 21.242645786248
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".navbar\",\"timeout\":30000},\"name\":\"brightdata-mcp_scraping_browser_wait_for\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 29,
+    "current_len": 20,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | navbar | \",\" | timeout | \": | 3 | 0 | 0 | 0 | 0 | },\" | name | \":\" | brightdata-mcp_scraping_browser_wait_for | \"}",
+    "marginal_savings": 21.242645786248
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.linkedin.com/company/example-company/\"},\"name\":\"brightdata-mcp_web_data_linkedin_company_profile\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 28,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .linkedin | .com | /company | /example | -company | / | \"},\" | name | \":\" | brightdata-mcp_web_data_linkedin_company_profile | \"}",
+    "marginal_savings": 20.647416048350557
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.examplebooking.com/hotels\"},\"name\":\"brightdata-mcp_web_data_booking_hotel_listings\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 29,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .example | booking | .com | /h | ot | els | \"},\" | name | \":\" | brightdata-mcp_web_data_booking_hotel_listings | \"}",
+    "marginal_savings": 20.647416048350557
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.reddit.com/r/example_post_url\"},\"name\":\"brightdata-mcp_web_data_reddit_posts\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 27,
+    "current_len": 19,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .reddit | .com | /r | /example | _post | _url | \"},\" | name | \":\" | brightdata-mcp_web_data_reddit_posts | \"}",
+    "marginal_savings": 20.647416048350557
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.youtube.com/user/exampleprofile\"},\"name\":\"brightdata-mcp_web_data_youtube_profiles\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 26,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .youtube | .com | /user | /example | profile | \"},\" | name | \":\" | brightdata-mcp_web_data_youtube_profiles | \"}",
+    "marginal_savings": 20.034692133618847
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.youtube.com/user/examplechannel\"},\"name\":\"brightdata-mcp_web_data_youtube_profiles\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 26,
+    "current_len": 18,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .youtube | .com | /user | /example | channel | \"},\" | name | \":\" | brightdata-mcp_web_data_youtube_profiles | \"}",
+    "marginal_savings": 20.034692133618847
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".main-content\"},\"name\":\"brightdata-mcp_scraping_browser_scroll_to\"}",
+    "original_freq": 6,
+    "current_freq": 6,
+    "original_len": 22,
+    "current_len": 13,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | main | -content | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_scroll_to | \"}",
+    "marginal_savings": 19.96920706410825
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://twitter.com/example_post_url\"},\"name\":\"brightdata-mcp_web_data_x_posts\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 24,
+    "current_len": 17,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | twitter | .com | /example | _post | _url | \"},\" | name | \":\" | brightdata-mcp_web_data_x_posts | \"}",
+    "marginal_savings": 19.40285000290664
+  },
+  {
+    "token": "{\"arguments\":{\"url\":\"https://www.tesla.com\"},\"name\":\"brightdata-mcp_web_data_crunchbase_company\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 26,
+    "current_len": 17,
+    "tokenizer_view": "{\" | arguments | \":{\" | url | \":\" | https | :// | www | .t | es | la | .com | \"},\" | name | \":\" | brightdata-mcp_web_data_crunchbase_company | \"}",
+    "marginal_savings": 19.40285000290664
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".next-step-button\"},\"name\":\"brightdata-mcp_scraping_browser_click\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 22,
+    "current_len": 14,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | next | -step | -button | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_click | \"}",
+    "marginal_savings": 17.371980724307587
+  },
+  {
+    "token": "{\"arguments\":{\"selector\":\".load-more-button\"},\"name\":\"brightdata-mcp_scraping_browser_click\"}",
+    "original_freq": 5,
+    "current_freq": 5,
+    "original_len": 22,
+    "current_len": 14,
+    "tokenizer_view": "{\" | arguments | \":{\" | selector | \":\" | . | load | -more | -button | \"},\" | name | \":\" | brightdata-mcp_scraping_browser_click | \"}",
+    "marginal_savings": 17.371980724307587
+  },
+  {
+    "token": "brightdata-mcp_web_data_instagram_reels(url)",
+    "original_freq": 13,
+    "current_freq": 13,
+    "original_len": 12,
+    "current_len": 3,
+    "tokenizer_view": "brightdata-mcp_web_data_instagram_reels | (url | )",
+    "marginal_savings": 15.01110699893027
+  },
+  {
+    "token": "brightdata-mcp_web_data_amazon_product_reviews",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 10,
+    "current_len": 2,
+    "tokenizer_view": "brightdata-mcp_web_data_amazon_product | _reviews",
+    "marginal_savings": 13.435028842544401
+  },
+  {
+    "token": "brightdata_mcp_web_data_amazon_product_reviews",
+    "original_freq": 19,
+    "current_freq": 19,
+    "original_len": 10,
+    "current_len": 2,
+    "tokenizer_view": "brightdata_mcp_web_data_amazon_product | _reviews",
+    "marginal_savings": 13.435028842544401
+  }
+]

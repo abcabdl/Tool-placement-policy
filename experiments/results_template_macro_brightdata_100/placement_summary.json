@@ -1,0 +1,24 @@
+[
+  {
+    "placement": "retrieval",
+    "runs": 100,
+    "gold_in_prompt_rate": 0.73,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.63,
+    "argument_exact": 0.75,
+    "both_exact": 0.62,
+    "avg_prompt_chars": 3301.22,
+    "avg_latency_sec": 1.9441397190093994
+  },
+  {
+    "placement": "template_macro",
+    "runs": 100,
+    "gold_in_prompt_rate": 0.73,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.62,
+    "argument_exact": 0.75,
+    "both_exact": 0.61,
+    "avg_prompt_chars": 4745.57,
+    "avg_latency_sec": 2.0320853877067564
+  }
+]

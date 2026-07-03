@@ -1,0 +1,202 @@
+[
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "7^4"
+      }
+    },
+    "source_instruction": "Determine the precise numerical outcome when the integer base 7 is elevated exponentially to the fourth power (i.e., 7^4), and furnish a concise yet clear explanation of the mathematical process or steps utilized to reach the result.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "round(428 / 12, 2)"
+      }
+    },
+    "source_instruction": "Determine the numerical quotient resulting from dividing 428 by 12, ensuring the outcome is meticulously rounded to precisely two decimal points, and include a detailed explanation regarding the specific mathematical principles and techniques employed in the rounding methodology.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "7**4"
+      }
+    },
+    "source_instruction": "Find the value of 7 raised to the power of 4.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "2 + 4 + 6 + ... + 100"
+      }
+    },
+    "source_instruction": "Determine the sum of all even integers ranging from 1 to 100 using the series \"2 + 4 + 6 + ... + 100,\" ensuring that all intermediate steps and a brief explanation of the applied mathematical approach are explicitly provided.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(15 * 19.99).toFixed(2)"
+      }
+    },
+    "source_instruction": "Calculate the aggregate expense by determining the product of 15 and the precise monetary value of 19.99, ensuring the final outcome is rounded accurately to two decimal points for financial accuracy.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "15 * 19.99"
+      }
+    },
+    "source_instruction": "Calculate 15 multiplied by 19.99 to determine the total cost.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "2 + 4 + 6 + ... + 100"
+      }
+    },
+    "source_instruction": "Construct and analyze the arithmetic series \"2 + 4 + 6 + ... + 100\" to determine the total sum of all even integers in the inclusive range from 1 to 100, while explicitly deriving the formula for the nth term, calculating the series' terms, identifying its common difference, and evaluating its overall summation.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "round(428 / 12, 2)"
+      }
+    },
+    "source_instruction": "Calculate the result of 428 divided by 12 and round it to two decimal places.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "2 + 4 + 6 + ... + 100"
+      }
+    },
+    "source_instruction": "Compute the sum of all even numbers between 1 and 100 using the expression \"2 + 4 + 6 + ... + 100\".",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(729^(1/3)) - (144^(1/2))"
+      }
+    },
+    "source_instruction": "Calculate the precise numerical difference between the cube root of 729 (729^(1/3)) and the square root of 144 (144^(1/2)), ensuring the computations utilize their exact mathematical values rather than any rounded approximations or estimates.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "729^(1/3)"
+      }
+    },
+    "source_instruction": "Determine the precise numerical disparity between the cube root of 729 (729^(1/3))—a perfect cube—and the square root of 144 (144^(1/2))—a perfect square—by carefully calculating each root sequentially and documenting the intermediate calculations before arriving at the conclusive result.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(23.75 * 12.49).toFixed(2)"
+      }
+    },
+    "source_instruction": "Calculate the total value of purchasing 23.75 units of a product priced at 12.49 each, ensuring the final amount is rounded to two decimal places.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "428 / 12"
+      }
+    },
+    "source_instruction": "Divide 428 by 12, ensuring you carefully perform each step of the calculation, including verifying intermediate results for precision, and provide the final quotient rounded to two decimal places after confirming the rounding accuracy.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "2 + 4 + 6 + ... + 100"
+      }
+    },
+    "source_instruction": "Determine the overall summation of all positive, consecutive even integers systematically aligned within the numerical interval stretching from 2 to 100 inclusive, utilizing the arithmetic sequence \"2 + 4 + 6 + ... + 100\" rooted in evenly spaced terms.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "7^4"
+      }
+    },
+    "source_instruction": "Calculate the numerical outcome of raising 7, a prime number, to the fourth power within the framework of conventional arithmetic, and explore whether the result has any unique mathematical properties or relevance to number theory.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(729^(1/3)) - (144^(1/2))"
+      }
+    },
+    "source_instruction": "Evaluate the difference between the cube root of 729 (729^(1/3)) and the square root of 144 (144^(1/2)).",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "256^(1/4) + 121^(1/2)"
+      }
+    },
+    "source_instruction": "Identify the sum of the fourth root of 256 (256^(1/4)) and the square root of 121 (121^(1/2)), presenting all calculations in their most simplified radical forms.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(7^2)^2"
+      }
+    },
+    "source_instruction": "Evaluate the result of 7 raised to the 4th power by first calculating the value of 7 squared, then squaring that result, ensuring all intermediate calculations are verified for accuracy before completing the multi-step evaluation.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "(759 / 17).toFixed(3)"
+      }
+    },
+    "source_instruction": "Calculate the result of dividing 759 by 17, ensuring the operation is performed with precision, and round the final answer to three decimal places.",
+    "tool": "mcp-server-calculator_calculate"
+  },
+  {
+    "function_call": {
+      "name": "mcp-server-calculator_calculate",
+      "arguments": {
+        "expression": "15 * 19.99"
+      }
+    },
+    "source_instruction": "Calculate the total cost by determining the product of 15 and 19.99, accounting for any potential rounding implications and ensuring the final value aligns with standard currency formatting practices.",
+    "tool": "mcp-server-calculator_calculate"
+  }
+]

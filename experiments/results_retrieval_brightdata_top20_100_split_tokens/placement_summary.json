@@ -1,0 +1,13 @@
+[
+  {
+    "placement": "retrieval",
+    "runs": 100,
+    "gold_in_prompt_rate": 0.89,
+    "valid_json_rate": 1.0,
+    "tool_accuracy": 0.7,
+    "argument_exact": 0.79,
+    "both_exact": 0.69,
+    "avg_prompt_chars": 5676.06,
+    "avg_latency_sec": 1.9210335850715636
+  }
+]

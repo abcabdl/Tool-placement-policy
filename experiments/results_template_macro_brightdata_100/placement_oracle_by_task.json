@@ -1,0 +1,2602 @@
+[
+  {
+    "task_id": "Bright Data::0",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3056,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3056
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4495
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::1",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3497,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3497
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5021
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::10",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_homedepot_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3082,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3082
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4508
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::11",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3366,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3366
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4819
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::12",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3638,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3638
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 5169
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::13",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3424,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3424
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4837
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::14",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3233,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3233
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4608
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::15",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_homedepot_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3409,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3409
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4836
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::16",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3349,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3349
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4809
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::17",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3564,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3564
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5090
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::18",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_zara_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3068,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3068
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4412
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::19",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3048,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3048
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4608
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::2",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3300,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3300
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4737
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::20",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3493,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3493
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4925
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::21",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3335,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3335
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4743
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::22",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3394,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3394
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4857
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::23",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3241,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3241
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4782
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::24",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3262,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3262
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4715
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::25",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3431,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3431
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4911
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::26",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3412,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3412
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4879
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::27",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3189,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3189
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4574
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::28",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3170,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3170
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4565
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::29",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3288,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3288
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4837
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::3",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_homedepot_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3276,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3276
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4683
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::30",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3277,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3277
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4718
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::31",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3295,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3295
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4716
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::32",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3027,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3027
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4461
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::33",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3479,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3479
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4956
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::34",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_zara_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3341,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3341
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4769
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::35",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3236,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3236
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4686
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::36",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3395,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3395
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4892
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::37",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3193,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3193
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4638
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::38",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_zara_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3231,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3231
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4676
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::39",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 2920,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 2920
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4319
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::4",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3383,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3383
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4803
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::40",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_homedepot_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3491,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3491
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4998
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::41",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3260,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3260
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4728
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::42",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 2999,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 2999
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4386
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::43",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3403,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3403
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4858
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::44",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3182,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3182
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4605
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::45",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3153,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3153
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4581
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::46",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3504,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3504
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 5029
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::47",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3078,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3078
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4568
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::48",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3201,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3201
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4654
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::49",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_bestbuy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3558,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3558
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5064
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::5",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3345,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3345
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4757
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::50",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3406,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3406
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4880
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::51",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3501,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3501
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4950
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::52",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3612,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3612
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5100
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::53",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_etsy_products",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3229,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3229
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4640
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::54",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3538,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3538
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 5068
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::55",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3548,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3548
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4996
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::56",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3551,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3551
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5055
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::57",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_maps_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3163,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3163
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4559
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::58",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_company_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3115,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3115
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4504
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::59",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_maps_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3190,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3190
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4626
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::6",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3436,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3436
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4874
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::60",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3355,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3355
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4784
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::61",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_company_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3566,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3566
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 5013
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::62",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3341,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3341
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4797
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::63",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_company_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3332,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3332
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4789
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::64",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3277,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3277
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4663
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::65",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3056,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3056
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4502
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::66",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3367,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3367
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4774
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::67",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3109,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3109
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4559
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::68",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_company_reviews",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3291,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3291
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4702
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::69",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3534,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3534
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4982
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::7",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_person_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3374,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3374
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4833
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::70",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3242,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3242
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4650
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::71",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3345,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3345
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4818
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::72",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3354,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3354
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4827
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::73",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3362,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3362
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4846
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::74",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3439,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3439
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4912
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::75",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3586,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3586
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5040
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::76",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3174,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3174
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4644
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::77",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3364,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3364
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4857
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::78",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3057,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3057
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4456
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::79",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3204,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3204
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4625
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::8",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_company_profile",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3225,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3225
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4601
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::80",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_shopping",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3498,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3498
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 5004
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::81",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3486,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3486
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4950
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::82",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3349,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3349
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4753
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::83",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3366,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3366
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4749
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::84",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3300,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3300
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4722
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::85",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 2770,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 2770
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4127
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::86",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3321,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3321
+      },
+      "template_macro": {
+        "gold_in_prompt": false,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4785
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::87",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3333,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3333
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4796
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::88",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3324,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3324
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4737
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::89",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 2779,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 2779
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4194
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::9",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_linkedin_job_listings",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3354,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3354
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4789
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::90",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3392,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3392
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4805
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::91",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 2980,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 2980
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4387
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::92",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3477,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3477
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4926
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::93",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3162,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3162
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4602
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::94",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3190,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3190
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4642
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::95",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3163,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3163
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4603
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::96",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3083,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 3083
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": false,
+        "both_exact": false,
+        "prompt_chars": 4470
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::97",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": false,
+    "oracle_prompt_chars": 3160,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 3160
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": false,
+        "args_exact": true,
+        "both_exact": false,
+        "prompt_chars": 4538
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::98",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_google_play_store",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3448,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3448
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4863
+      }
+    }
+  },
+  {
+    "task_id": "Bright Data::99",
+    "server": "Bright Data",
+    "gold_tool": "brightdata-mcp_web_data_facebook_events",
+    "oracle_placement": "retrieval",
+    "oracle_both_exact": true,
+    "oracle_prompt_chars": 3468,
+    "placements": {
+      "retrieval": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 3468
+      },
+      "template_macro": {
+        "gold_in_prompt": true,
+        "valid_json": true,
+        "tool_exact": true,
+        "args_exact": true,
+        "both_exact": true,
+        "prompt_chars": 4907
+      }
+    }
+  }
+]

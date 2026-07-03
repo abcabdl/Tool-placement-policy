@@ -1,0 +1,226 @@
+[
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "du -ah /var/log",
+        "cwd": null,
+        "timeout": 30000
+      }
+    },
+    "source_instruction": ": Determine the disk space usage of the \"/var/log\" directory on a remote system by executing the relevant command, and ensure you provide comprehensive and granular output, including file sizes, subdirectory statistics, and any hidden files, while validating the accuracy of the data for monitoring purposes.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "du -sh /home"
+      }
+    },
+    "source_instruction": ": Execute the command \"du -sh /home\" to determine the disk space usage on the remote machine, particularly in the \"/home\" directory.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ls -l --classify"
+      }
+    },
+    "source_instruction": "Execute the `ls` command to retrieve and thoroughly detail the list of files, directories, their respective attributes, and additionally categorize each item's type in the current working directory within the target environment.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ls"
+      }
+    },
+    "source_instruction": "Use the command `ls` to retrieve the list of files and directories in the current working directory on the target environment.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "date",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Establish a secure connection to the remote server, execute the shell command `date` to determine the system's current date and time, and perform a multi-step verification to ensure the reported result accurately aligns with both the server's configured timezone settings and its expected geographical location consistency.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ls -a"
+      }
+    },
+    "source_instruction": "Use the command `ls` to methodically retrieve and analyze the complete list of files and directories present in the current working directory on the target environment, while ensuring that hidden files are included for a comprehensive and structured overview of the results.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "date",
+        "cwd": null,
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "With SSH access, securely establish a remote connection to the server, then execute the shell command `date` to retrieve the system's current date and time. Thoroughly analyze the output to ensure it conforms to the server's configured time zone settings, cross-verify with any applicable regional standards, and provide a detailed report of your findings.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "du -sh /home",
+        "cwd": "/home",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": ": Conduct a comprehensive analysis of the disk space utilization on the remote machine by executing the command \"du -sh /home\" in the \"/home\" directory, interpret the results in the context of potential storage optimization steps, and identify specific subdirectories exceeding a certain size threshold (e.g., 1GB) that may require immediate attention.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ping -4 google.com",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Perform a network diagnostics command, for example, 'ping google.com', on the specified machine to verify internet connectivity, ensuring strict use of the IPv4 protocol, maintaining the default timeout of 30000 milliseconds, and recording the packet loss percentage during the operation.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ping google.com"
+      }
+    },
+    "source_instruction": "Run a network diagnostics command like 'ping google.com' on the target machine to check internet connectivity. Use the default timeout of 30000 milliseconds.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "find . -type f -mtime -1 -exec ls -lh {} +; find . -type d -mtime -1",
+        "cwd": "",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Identify and list all files and directories present in the current working environment that have undergone modification within the past 24 hours, ensuring their sizes are displayed in a human-readable format, and categorize them based on file type or extension.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "mkdir logs_backup",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Execute the necessary command `mkdir logs_backup` to create a new subdirectory named `logs_backup` within the specified remote directory path; ensure the directory is assigned appropriate permissions, validate its successful creation, and additionally confirm the ownership and access compliance within the system constraints.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "date",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Execute the shell command `date` on the remote server to check the system's current date and time, and report back the result.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "find /var/log -type f -exec du -ch {} + | grep total$",
+        "cwd": "",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Access the target remote server through a secure shell (SSH) connection and run the Linux shell command \"find /var/log -type f -exec du -ch {} + | grep total$\" to calculate the aggregate disk usage of all individual files within the \"/var/log\" directory, ensuring an overview of cumulative log storage.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ping google.com",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Run a comprehensive network diagnostics command, such as 'ping google.com', on the specified machine to evaluate internet connectivity, factoring in potential latency fluctuations and packet loss, and ensuring the default timeout parameter of 30000 milliseconds is consistently enforced during the entire diagnostic process.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "mkdir logs_backup",
+        "cwd": "",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Execute the command `mkdir logs_backup` in the specified remote directory path.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "ping google.com",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Perform a thorough network diagnostics command, such as 'ping google.com', on the specified target machine to evaluate internet connectivity, ensuring the default timeout parameter of 30000 milliseconds is retained for precise measurement, while also verifying that packet loss does not exceed 2% during the test.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "uptime",
+        "cwd": null,
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Utilize a secure remote connection to execute the shell command `uptime`, retrieve the system's current uptime information, verify the accuracy of the output against expected system metrics, and provide a detailed report summarizing the findings.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "mkdir --verbose --parents logs_backup && chmod --reference=. logs_backup && chown --reference=. logs_backup",
+        "cwd": "",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Generate the directory `logs_backup` within the designated remote directory path, ensuring it replicates the exact permissions, ownership, and access control attributes of its parent directory while maintaining compatibility with existing system configurations.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  },
+  {
+    "function_call": {
+      "name": "remote-shell-terminal-mcp_shell-exec",
+      "arguments": {
+        "command": "tar -czvf configs_archive.tar.gz --preserve-permissions *.conf",
+        "cwd": "",
+        "timeout": 30000
+      }
+    },
+    "source_instruction": "Establish an SSH connection to the designated server and generate a compressed archive named `configs_archive.tar.gz` containing all `.conf` files within the specified directory, ensuring file permissions are preserved during the compression process.",
+    "tool": "remote-shell-terminal-mcp_shell-exec"
+  }
+]

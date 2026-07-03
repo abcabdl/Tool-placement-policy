@@ -1,0 +1,7 @@
+# Copy this file to configs/openai.yml for local use.
+# configs/openai.yml is ignored by git.
+openai:
+  api_key: null
+  api_base: null
+  model: null
+  temperature: 0

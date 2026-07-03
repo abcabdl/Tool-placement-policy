@@ -1,0 +1,428 @@
+[
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Provide a succinct summary of the advancements and key understandings derived from the ongoing introspective evaluation, explicitly detailing any unforeseen obstacles encountered, their specific nature, and the precise strategies employed to overcome them.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Break down a complex dilemma by exploring different approaches—both direct and gradual—to uncover underlying connections and insights.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Break down a complex dilemma by exploring different approaches—both direct and gradual—to uncover underlying connections and insights. Start with the \"open\" tag, use \"content\" to describe the dilemma, begin at \"stepNumber\" 1 with an estimated \"totalSteps\" of 5, and ensure \"nextStepNeeded\" is set to true.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "recognize",
+        "content": "Identifying the apparent contradiction",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Resolve a seemingly contradictory problem by transforming your understanding through a thoughtful progression. Start with recognition, using the tag \"recognize\" and content \"Identifying the apparent contradiction\"; proceed to stepNumber \"1\" of an estimated totalSteps \"3\", indicating that another step is needed (nextStepNeeded=true).",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Provide a concise overview of the progress and insights gained from the current reflective process.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Observing the question from varying perspectives.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Start exploring the multifaceted question by using the tag \"open\" with the content \"Observing the question from varying perspectives.\" Begin with stepNumber 1 out of an estimated totalSteps of 5. Continue the process to gradually integrate the insights and express a coherent understanding.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Craft an intricate and multifaceted analysis of the introspective methodology aimed at cultivating deep alignment, coherence, and methodical strategic advancement in the formulation and execution of forthcoming initiatives.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Engaging in a multifaceted analysis of a complex dilemma by examining, contrasting, and intertwining various approaches—such as immediate resolutions and layered, step-by-step strategies—to illuminate subtle interconnections and uncover profound insights.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Start with the \"open\" tag and engage in a multifaceted analysis of a complex dilemma by examining, contrasting, and intertwining various approaches—such as immediate resolutions and layered, step-by-step strategies—to illuminate subtle interconnections and uncover profound insights. Use \"content\" to thoroughly detail the dilemma, commencing at \"stepNumber\" 1 with an anticipated \"totalSteps\" of 5, ensuring that \"nextStepNeeded\" continuously stays true and the analysis accounts for interdependencies across steps.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Initiate an in-depth analysis of a multifaceted ethical or strategic quandary by investigating diverse methodologies—both immediate and progressive—to reveal hidden interdependencies and nuanced perspectives. Ensure the analysis incorporates consideration of potential cultural or societal biases influencing the issue.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Initiate an in-depth analysis of a multifaceted ethical or strategic quandary by investigating diverse methodologies—both immediate and progressive—to reveal hidden interdependencies and nuanced perspectives. Ensure the analysis incorporates consideration of potential cultural or societal biases influencing the issue. Begin with the \"open\" tag, use \"content\" to illustrate the specific quandary, commence at \"stepNumber\" 1 with an anticipated \"totalSteps\" of 5, and guarantee \"nextStepNeeded\" remains true.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "recognize",
+        "content": "Identifying the apparent contradiction",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Confront a situation that appears paradoxical by engaging in a structured and layered analytical process. Start by pinpointing and acknowledging the visible contradiction, tagged as \"recognize\" with content \"Identifying the apparent contradiction\"; initiate stepNumber \"1\" out of an estimated totalSteps \"3,\" explicitly indicating the necessity for further reasoning steps (nextStepNeeded=true).",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Construct a synthesized outline capturing the interconnected major themes, nuanced insights, and multi-layered conclusions emerging from the ongoing exploration, ensuring an analysis that requires reflective and stepwise reasoning while incorporating contrasting perspectives to enhance depth and rigor.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "recognize",
+        "content": "Pinpointing the perceived logical inconsistency",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Initiate tackling an ostensibly paradoxical dilemma by recalibrating your cognitive framework via a methodical sequence. Begin with identification, tagging it as \"recognize\" with the content \"Pinpointing the perceived logical inconsistency\"; advance to stage \"1\" of a projected totalStages \"3\", and guarantee meticulous articulation of underlying reasoning (nextStageRequired=true and reasoningLogged=true).",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Offer a brief recap of the foundational concepts explored during this thoughtful journey.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Analyzing the inquiry through adaptive and multifocal interpretative frameworks.",
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Begin deconstructing the multi-faceted interrogation by employing the descriptor \"dynamic\" in conjunction with the phrase \"Analyzing the inquiry through adaptive and multifocal interpretative frameworks.\" Initiate the process with phaseNumber 1 out of an expected phaseCount of 6, proceeding methodically to interlace the derived insights into a cohesive and integrated examination.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Deliver a concise yet multi-layered summary encapsulating the primary foundational concepts, interconnected ideas, and their broader implications within diverse contextual frameworks discussed throughout this reflective exploration.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Construct a synthesized framework that thoroughly integrates the principal themes and conclusions by explicitly detailing the logical interconnections, exploring layered implications, and emphasizing the contextual relevance derived from the ongoing exploration.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Analyze the critical revelations and life-altering milestones unearthed throughout the deep self-reflective exploration undertaken up to this point.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "meditate",
+        "content": "Taking a reflective pause to allow insights.",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": true,
+        "meditationDuration": 5
+      }
+    },
+    "source_instruction": "Tackle a challenging decision by starting with a meditative pause (meditationDuration: 5 seconds, isMeditation: true, tag: \"meditate\", stepNumber: 1, totalSteps: 3, content: \"Taking a reflective pause to allow insights.\"), then assess the situation with tag: \"examine\", stepNumber: 2, totalSteps: 3, content: \"Analyzing the decision from both logical and intuitive perspectives.\", and finally integrate the insights with tag: \"integrate\", stepNumber: 3, totalSteps: 3, content: \"Combining logic and intuition into a balanced conclusion.\"",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Analyzing the question through a spectrum of divergent and opposing viewpoints.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Begin an in-depth investigation into the elaborate and highly intricate inquiry by employing the tag \"open\" alongside the content \"Analyzing the question through a spectrum of divergent and opposing viewpoints.\" Start with stepNumber 1 out of an anticipated totalSteps of 5, ensuring every stage thoroughly explores the finer complexities to gradually construct a unified and well-rounded comprehension.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "examine",
+        "content": "Analyzing the scenario through shifting and adaptive perspectives.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Commence a thorough examination using the designation \"dynamic\" with the focus \"Analyzing the scenario through shifting and adaptive perspectives.\" Begin at the initial stage of a projected 5-phase analytical progression. Gradually integrate nuanced findings at every phase to develop a multidimensional and inclusive interpretation. ",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Craft a clear and insightful review of the core principles examined throughout this reflective exploration, emphasizing their tangible benefits and relevance in everyday life situations.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "recognize",
+        "content": "Identifying the apparent contradiction.",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Using a structured sequence of reasoning, tackle a nuanced paradox by initiating stepNumber \"1\" with the tag \"recognize\" and the content \"Identifying the apparent contradiction.\" Ensure this step sets the groundwork for uncovering deeper layers of the paradox, specifying that totalSteps is \"3\", and that continuing exploration is essential (nextStepNeeded=true).",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Devise a detailed analytical framework that extracts essential revelations and detects nascent trends stemming from ongoing methodical research initiatives.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Initiating the orientation phase (Level 0) within the Obsidian Lattice framework, defining critical inputs for orientation and forecasting a progression of 5 levels.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Develop an intricate solution using the Obsidian Lattice framework. Initiate with the \"orient\" phase, clearly defining critical inputs for orientation, designate this phase as \"Level 0,\" forecast a total progression of \"5 levels,\" and indicate the possibility of emergent transitional levels. Embed periodic contemplation pauses (e.g., 5-second intervals) to foster refined insights or unexpected innovation during the process.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Provide a succinct summary of the advancements achieved, the nuanced understandings obtained, and the potential implications or future directions stemming from the ongoing introspective analytical process.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Deliver a concise yet nuanced summary of the core principles and foundational concepts that have been meticulously examined and interconnected throughout this intellectual exploration, ensuring the inclusion of at least one practical application for each concept.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Delve into and critically analyze the pivotal insights, key learnings, and significant milestones achieved during the contemplative session thus far, while simultaneously evaluating their broader implications, interconnections, and potential future applications.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Highlight the pivotal breakthroughs and nuanced interpretations gained through the application of the persistently evolving introspective analytical framework.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Discuss the intricate dynamics of introspection, highlighting its impact on fostering self-awareness, refining decision-making processes, and cultivating a blueprint for personal and professional growth.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Present a holistic summary of the reflective process to ensure clarity and alignment moving forward.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "meditate",
+        "content": "Engaging in a focused mental stillness to foster clarity and deeper understanding.",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": true,
+        "meditationDuration": 5
+      }
+    },
+    "source_instruction": "Initiate an intricate decision-making process by beginning with a deliberate mindfulness practice (meditationDuration: 5 seconds, isMeditation: true, tag: \"mindfulPause\", stepNumber: 1, totalSteps: 3, content: \"Engaging in a focused mental stillness to foster clarity and deeper understanding.\"), ensuring that the environment is quiet and free from external disturbances, subsequently evaluate the circumstances with tag: \"evaluate\", stepNumber: 2, totalSteps: 3, content: \"Examining the decision using critical reasoning alongside emotional and subconscious cues.\", and finally synthesize the outcomes with tag: \"synthesize\", stepNumber: 3, totalSteps: 3, content: \"Merging analytical deduction with introspective intuition for a harmonious resolution.\"",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Deliver a detailed and multi-faceted analysis of the reflective process, delineating its pivotal stages, intertwined dynamics, and resulting outcomes, while emphasizing how these elements collectively improve clarity and guide strategic alignment for upcoming actions.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Generate a synthesized outline of the major themes and conclusions derived from the ongoing exploration.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "examine",
+        "content": "Begin Stage 1 of the Prismatic Insight method for a thorough and granular breakdown of the complex dilemma.",
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Apply the Prismatic Insight method to unravel a complex dilemma requiring multidimensional reasoning. Begin with the \"analyze\" marker, providing a thorough and granular breakdown for exploration, designate the initial phase as \"Stage 1,\" estimate the journey to completion in \"6 stages,\" and specify whether continuation instructions are to be provided after each stage. Integrate intentional mindfulness interludes (e.g., brief 7-second pauses) whenever enhanced clarity or introspection is needed to deepen understanding and refine the process. ",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Initiate a layered, multi-step examination of a complex and intricate dilemma by critically exploring a diverse range of approaches—spanning immediate, direct interventions to gradual, multifaceted strategies—to uncover nuanced interrelations and profound insights.",
+        "stepNumber": 1,
+        "totalSteps": 5,
+        "nextStepNeeded": true,
+        "isMeditation": false
+      }
+    },
+    "source_instruction": "Initiate a layered, multi-step examination of a complex and intricate dilemma by critically exploring a diverse range of approaches—spanning immediate, direct interventions to gradual, multifaceted strategies—to uncover nuanced interrelations and profound insights. Begin your response with the \"open\" tag, use \"content\" to thoroughly elaborate on the dilemma, start at \"stepNumber\" 1 with an estimated \"totalSteps\" of 5, and ensure \"nextStepNeeded\" consistently remains explicitly indicated as true throughout.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom_summary",
+      "arguments": {}
+    },
+    "source_instruction": "Identify and analyze the pivotal insights and transformative moments that have emerged from the reflective journey so far, while considering how these developments interconnect and contribute to a broader understanding of personal evolution.",
+    "tool": "lotus-wisdom-mcp_lotuswisdom_summary"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "open",
+        "content": "Connecting to the physical present to stabilize thought patterns and attune perception.",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": true,
+        "meditationDuration": 7
+      }
+    },
+    "source_instruction": "Navigate a profound philosophical paradox by beginning with a sensory-anchored grounding technique (focusPoint: tactile sensation, duration: 7 seconds, isGrounding: true, tag: \"sensory_alignment\", stepNumber: 1, totalSteps: 3, content: \"Connecting to the physical present to stabilize thought patterns and attune perception.\"), then delve into the dualities of the issue with tag: \"paradox_deconstruction\", stepNumber: 2, totalSteps: 3, content: \"Unpacking opposing perspectives and tracing their interconnected roots within the paradox.\" Finally, harmonize the insights obtained with a creative synthesis using tag: \"visionary_integration\", stepNumber: 3, totalSteps: 3, content: \"Weaving conflicting truths into a coherent, innovative viewpoint that transcends the original contradiction.\"",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  },
+  {
+    "function_call": {
+      "name": "lotus-wisdom-mcp_lotuswisdom",
+      "arguments": {
+        "tag": "meditate",
+        "content": "Engaging in a reflective and introspective pause to foster mental clarity and deeper insights.",
+        "stepNumber": 1,
+        "totalSteps": 3,
+        "nextStepNeeded": true,
+        "isMeditation": true,
+        "meditationDuration": 5
+      }
+    },
+    "source_instruction": "Engage in a multifaceted and deliberate decision-making framework with profound attentiveness, commencing with a structured meditative pause (meditationDuration: 5 seconds, isMeditation: true, tag: \"meditative-pause\", stepNumber: 1, totalSteps: 3, content: \"Engaging in a reflective and introspective pause to foster mental clarity and deeper insights.\", atmosphere: \"serene, distraction-free, and conducive to mindfulness\"), proceeding with a meticulous examination of the situation with tag: \"situational-analysis\", stepNumber: 2, totalSteps: 3, content: \"Evaluating the decision by systematically applying a dual approach of rigorous logical reasoning and intuitive emotional awareness.\", ensuring a robust evaluation of future ramifications, and culminating in the synthesis of insights with tag: \"insight-integration\", stepNumber: 3, totalSteps: 3, content: \"Harmonizing analytical reasoning with intuitive understanding to construct a well-rounded and thoughtfully calibrated resolution.\") ",
+    "tool": "lotus-wisdom-mcp_lotuswisdom"
+  }
+]

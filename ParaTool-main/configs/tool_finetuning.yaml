@@ -1,0 +1,42 @@
+secrets_file: null
+openai_config: null
+
+env:
+  HF_HOME: null
+  TRANSFORMERS_CACHE: null
+  CUDA_VISIBLE_DEVICES: null
+  # Used when gating checkpoint has q_encoder=bge (weights path; not stored in ckpt).
+  BGE_QENC_MODEL_PATH: null
+
+eval_model: null
+
+openai: null
+
+dataset: null
+category: null
+model_name: null
+run_tag: null
+
+lora_rank: null
+lora_alpha: null
+tool_finetuning_lr: null
+tool_finetuning_epochs: null
+tool_pretraining_lr: null
+tool_pretraining_epochs: null
+tool_finetuning_inner_epochs: null
+
+gating: null
+gating_network_ckpt_path: null
+
+train_all_alpha_experts: null
+trainable_alpha_threshold: null
+alpha_aug_stage1_prob: null
+alpha_aug_label_smooth_prob: null
+alpha_aug_wrong_top1_prob: null
+alpha_aug_label_gold_min: null
+alpha_aug_label_gold_max: null
+alpha_aug_wrong_gold_min: null
+alpha_aug_wrong_gold_max: null
+alpha_aug_wrong_top_min: null
+alpha_aug_wrong_top_max: null
+alpha_aug_seed: null

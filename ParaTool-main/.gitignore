@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Local secret config. Keep configs/openai.template.yaml tracked instead.
+configs/openai.yml
+configs/*secret*.yml
+configs/*private*.yml
+configs/*secret*.yaml
+configs/*private*.yaml
+
+# Large datasets live outside git. Keep only small tracked examples.
+data/**
+!data/
+!data/samples/
+!data/samples/**
+
+# Runtime outputs and model artifacts
+output/
+outputs/
+runs/
+logs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Optional external repositories cloned into the project root.
+external/
+StableToolBench/
+berkeley-function-call-leaderboard/
+third_party/
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/

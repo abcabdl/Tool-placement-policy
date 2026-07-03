@@ -1,0 +1,36 @@
+secrets_file: null
+openai_config: null
+
+env:
+  HF_HOME: null
+  TRANSFORMERS_CACHE: null
+  CUDA_VISIBLE_DEVICES: null
+  # Used when gating checkpoint has q_encoder=bge (BFCL/STB inference; not stored in ckpt).
+  BGE_QENC_MODEL_PATH: null
+
+eval_model: null
+
+openai: null
+
+category: null
+only_idx: null
+
+model_name: null
+run_tag: null
+
+max_new_tokens: null
+
+lora_rank: null
+lora_alpha: null
+tool_pretraining_lr: null
+tool_pretraining_epochs: null
+tool_finetuning_lr: null
+tool_finetuning_epochs: null
+
+gating_network_ckpt_path: null
+gating: null
+
+evaluator_name: null
+max_steps: null
+verbose: null
+disable_eval: null

@@ -1,0 +1,62 @@
+{
+  "tool_count": 1032,
+  "observed_tool_count": 82,
+  "catalog_only_tool_count": 950,
+  "observed_recommendation_counts": {
+    "vocab/template": 81,
+    "parameter/adapter": 50,
+    "uncertain": 1
+  },
+  "all_recommendation_counts": {
+    "vocab/template": 81,
+    "parameter/adapter": 50,
+    "catalog_only/context_retrieval_candidate": 950,
+    "uncertain": 1
+  },
+  "observed_server_counts": {
+    "Bright Data": 60,
+    "Google News and Trends": 5,
+    "Pokémon": 4,
+    "Weather MCP Server": 3,
+    "Lotus Wisdom": 2,
+    "Weather Query Server": 2,
+    "Human Messages Prompt Server": 1,
+    "Calculator": 1,
+    "12306 MCP Server": 1,
+    "Weather360 Server": 1,
+    "AAAAAA MCP Server": 1,
+    "Remote Shell Server": 1
+  },
+  "avg_full_card_chars": 872.5765503875969,
+  "avg_compact_card_chars": 339.2742248062016,
+  "avg_compression_ratio": 0.45192426151124304,
+  "tools_with_tasks": 82,
+  "high_context_retrieval": 0,
+  "high_vocab_template": 81,
+  "high_parameter_adapter": 50,
+  "top_context_retrieval": [],
+  "top_vocab_template": [
+    "brightdata-mcp_extract",
+    "brightdata-mcp_web_data_linkedin_people_search",
+    "brightdata-mcp_web_data_google_maps_reviews",
+    "brightdata-mcp_search_engine",
+    "brightdata-mcp_web_data_amazon_product_search",
+    "brightdata-mcp_web_data_reuter_news",
+    "brightdata-mcp_web_data_youtube_comments",
+    "brightdata-mcp_scraping_browser_type",
+    "brightdata-mcp_web_data_linkedin_company_profile",
+    "brightdata-mcp_scraping_browser_navigate"
+  ],
+  "top_parameter_adapter": [
+    "brightdata-mcp_search_engine",
+    "brightdata-mcp_scraping_browser_screenshot",
+    "brightdata-mcp_scraping_browser_scroll",
+    "brightdata-mcp_scraping_browser_navigate",
+    "brightdata-mcp_extract",
+    "brightdata-mcp_session_stats",
+    "brightdata-mcp_scraping_browser_get_text",
+    "brightdata-mcp_web_data_linkedin_people_search",
+    "brightdata-mcp_scraping_browser_links",
+    "brightdata-mcp_scraping_browser_click"
+  ]
+}

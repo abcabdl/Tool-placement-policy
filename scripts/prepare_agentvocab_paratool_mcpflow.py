@@ -227,6 +227,25 @@ def paratool_record(tasks, tools_by_id, candidate_ids, max_tasks, max_per_tool):
     }
 
 
+def resolve_candidate_tools(tasks, tools_by_id, mode, server, explicit_candidates):
+    if mode == "explicit":
+        return explicit_candidates
+    observed = []
+    seen = set()
+    for task in tasks:
+        if mode == "observed-server" and task.get("server") != server:
+            continue
+        tool_id = task.get("gold_tool")
+        if tool_id in tools_by_id and tool_id not in seen:
+            seen.add(tool_id)
+            observed.append(tool_id)
+    if mode == "adapter-default":
+        return [tool_id for tool_id in DEFAULT_ADAPTER_CANDIDATES if tool_id in tools_by_id]
+    if mode in {"observed-server", "all-observed"}:
+        return observed
+    raise ValueError(f"unknown candidate mode: {mode}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", default=r"C:\Users\zrz20\Desktop\vscode\Tool\experiments\data")
@@ -236,6 +255,11 @@ def main():
     parser.add_argument("--max-paratool-tasks", type=int, default=300)
     parser.add_argument("--max-paratool-per-tool", type=int, default=30)
     parser.add_argument("--server", default="Bright Data")
+    parser.add_argument(
+        "--candidate-mode",
+        choices=["adapter-default", "observed-server", "all-observed", "explicit"],
+        default="adapter-default",
+    )
     parser.add_argument("--candidate-tools", nargs="+", default=DEFAULT_ADAPTER_CANDIDATES)
     args = parser.parse_args()
 
@@ -249,10 +273,17 @@ def main():
     actual_rows = actual_content_rows(tasks, tools_by_id, only_server=args.server)
     write_jsonl(Path(args.agentvocab_actual_out), actual_rows)
 
+    candidate_tools = resolve_candidate_tools(
+        tasks,
+        tools_by_id,
+        args.candidate_mode,
+        args.server,
+        args.candidate_tools,
+    )
     record = paratool_record(
         tasks,
         tools_by_id,
-        args.candidate_tools,
+        candidate_tools,
         args.max_paratool_tasks,
         args.max_paratool_per_tool,
     )
@@ -265,6 +296,7 @@ def main():
             "agentvocab_out": args.agentvocab_out,
             "actual_content_rows": len(actual_rows),
             "agentvocab_actual_out": args.agentvocab_actual_out,
+            "candidate_mode": args.candidate_mode,
             "paratool_functions": len(record["function"]),
             "paratool_training_examples": training_count,
             "paratool_out": args.paratool_out,

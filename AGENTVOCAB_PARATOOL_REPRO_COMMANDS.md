@@ -23,6 +23,24 @@ ParaTool functions: 10
 ParaTool training examples: 297
 ```
 
+For the two-A800 reproduction, also generate the full Bright Data observed-tools sample:
+
+```powershell
+python scripts\prepare_agentvocab_paratool_mcpflow.py `
+  --candidate-mode observed-server `
+  --max-paratool-tasks 2000 `
+  --max-paratool-per-tool 30 `
+  --paratool-out C:\Users\zrz20\Desktop\vscode\Tool\ParaTool-main\data\MCPFLOW\brightdata_observed_tools.jsonl
+```
+
+Expected result:
+
+```text
+ParaTool functions: 60
+ParaTool training examples: 1455
+all tools nonempty
+```
+
 ## 2. AgentVocab Structural Mining Smoke Test
 
 This uses a local tokenizer only to test the mining pipeline. For paper-faithful reproduction, replace `--tokenizer` with a Qwen2.5 Instruct tokenizer path.

@@ -286,18 +286,28 @@ Use reduced sequence length before attempting official AgentVocab scale.
 
 Status: data conversion done; training not started.
 
-Generated file:
+Generated files:
 
 ```text
 ParaTool-main\data\MCPFLOW\brightdata_adapter_candidates.jsonl
+ParaTool-main\data\MCPFLOW\brightdata_observed_tools.jsonl
 ```
 
-Current sample:
+Small adapter-candidate sample:
 
 ```text
 10 candidate tools
 297 training examples
 28-30 examples per tool
+```
+
+Full Bright Data observed-tools sample:
+
+```text
+60 observed Bright Data tools
+1455 training examples
+8-30 examples per tool
+all tools nonempty
 ```
 
 Candidate tools:
@@ -318,17 +328,19 @@ brightdata-mcp_scraping_browser_click
 Next reproduction work:
 
 ```text
-Stage E.1: Adapt ParaTool loader/configs to accept dataset=MCPFLOW.
-Stage E.2: Run tool_pretraining.py on the 10-tool Bright Data sample.
-Stage E.3: Run soft_tool_selection_train.py as a reranker/gating probe.
-Stage E.4: Decide whether tool_finetuning.py is worth running.
+Stage E.1: Adapt ParaTool loader/configs to accept dataset=MCPFLOW or pass custom data path.
+Stage E.2: Run tool_pretraining.py on brightdata_observed_tools.jsonl, not only the 10-tool toy file.
+Stage E.3: Run soft_tool_selection_train.py on 60-tool Bright Data.
+Stage E.4: Run tool_finetuning.py with gating enabled.
+Stage E.5: Compare parameter/gating against compact retrieval top10/top20.
 ```
 
 GPU expectation:
 
 ```text
-Small 10-tool Qwen2.5-7B LoRA: 1x A100 40GB preferred; 1x RTX 4090 may work with reduced settings.
-Official ParaTool-scale reproduction: 1-4 GPUs depending on model and data scale.
+60-tool Bright Data Qwen2.5-7B LoRA: 2x A800 is enough to attempt a serious domain reproduction.
+Qwen2.5-14B is possible but should be second priority.
+Official BFCL/STB-scale ParaTool still needs official data and longer runtime.
 ```
 
 ## Stage F: Policy Only After Gates
@@ -351,6 +363,118 @@ Do not write a policy paper.
 Pivot to retrieval-reranking or structural vocabulary adaptation.
 ```
 
+## Stage G: Two-A800 Reproduction Plan
+
+Assumed hardware:
+
+```text
+2 x NVIDIA A800, ideally 80GB each
+Linux + CUDA + Python 3.10
+```
+
+With two A800s, do not stop at toy experiments. Run the largest feasible MCP-Flow/Bright-Data reproduction before moving to official BFCL/STB or tau-bench.
+
+### G.1 AgentVocab on MCP-Flow/Bright Data
+
+Input files already prepared:
+
+```text
+AgentVocab-main\outputs\data\mcpflow_actual_content.jsonl
+AgentVocab-main\outputs\tokens\top_200_reachable_structural_tokens.json
+```
+
+Run order:
+
+```text
+1. Expand Qwen2.5-7B tokenizer with top_200 reachable structural tokens.
+2. Run stage1 LoRA on MCP-Flow rendered data with original tokenizer.
+3. Run stage2 LoRA on expanded tokenizer/model.
+4. Evaluate token count reduction and function-call accuracy on held-out Bright Data tasks.
+```
+
+Recommended two-A800 modifications from official AgentVocab scripts:
+
+```text
+NPROC_PER_NODE=2 for both stage1 and stage2
+CUDA_VISIBLE_DEVICES=0,1
+stage1 max_length: start with 8192 or 16384, not 32768
+stage2 max_length: 8192
+LoRA rank: keep 64 if memory allows; otherwise 32
+Use top_200 reachable structural tokens first; top_400 gives no additional reachable tokens in current corpus.
+```
+
+What counts as success:
+
+```text
+Input/output token count decreases versus Qwen2.5 baseline.
+Function-call JSON validity does not drop.
+Tool accuracy / argument exact do not degrade materially.
+```
+
+### G.2 ParaTool on 60-tool Bright Data
+
+Input file:
+
+```text
+ParaTool-main\data\MCPFLOW\brightdata_observed_tools.jsonl
+```
+
+Run order:
+
+```text
+1. Add MCPFLOW dataset support or use tool_pretraining_data_path.
+2. Stage 1: per-tool LoRA pretraining over 60 Bright Data tools.
+3. Stage 2: soft tool selection / gating network.
+4. Stage 3: gated tool finetuning.
+5. Inference/eval on held-out Bright Data tasks.
+```
+
+Two-A800 target:
+
+```text
+Primary model: Qwen2.5-7B-Instruct
+Secondary model if time permits: Qwen2.5-14B-Instruct
+Candidate set: 60 Bright Data observed tools
+Holdout: split 1455 tasks into train/validation/test, not train-on-all.
+```
+
+What counts as success:
+
+```text
+Parameter/gating improves over compact retrieval top10 at similar or lower prompt cost.
+Gating reduces confusion for top20 candidate pools.
+Adapter improves ambiguous tools such as search_engine, screenshot, scroll, get_text, linkedin_people_search.
+```
+
+### G.3 Fullness Criteria
+
+The two-A800 run should be considered complete enough only if it includes:
+
+```text
+AgentVocab:
+  tokenizer expansion
+  stage1 LoRA
+  stage2 LoRA
+  token-saving measurement
+  held-out function-call evaluation
+
+ParaTool:
+  60-tool Bright Data data
+  tool pretraining
+  soft tool selection
+  tool finetuning
+  held-out evaluation
+```
+
+If time is limited, priority order:
+
+```text
+1. ParaTool 60-tool Bright Data Qwen2.5-7B
+2. AgentVocab top_200 structural-token Qwen2.5-7B
+3. Official ParaTool BFCL/STB data
+4. Official AgentVocab tau-bench/tau2-bench
+```
+
 ## 3. Immediate Next Steps
 
 ### Next CPU task
@@ -369,13 +493,13 @@ Choose one:
 
 ```text
 AgentVocab path:
-  tokenizer expansion with top_200 reachable structural tokens
+  tokenizer expansion + stage1/stage2 LoRA with top_200 reachable structural tokens
 
 ParaTool path:
-  tool_pretraining.py on 10 Bright Data adapter candidates
+  full 60-tool Bright Data observed-tools run
 ```
 
-If only one GPU run is available, prefer ParaTool small sample first because it is closer to the current retrieval/tool-confusion bottleneck.
+With two A800s, prefer the ParaTool 60-tool Bright Data run first because it directly targets the current retrieval/tool-confusion bottleneck.
 
 ## 4. Repository Notes
 
@@ -392,6 +516,6 @@ MCP-Flow raw local checkout as normal files
 parsed MCP-Flow data
 retrieval/function-call experiment results
 AgentVocab-main with MCP-Flow mining outputs
-ParaTool-main with MCPFLOW small sample
+ParaTool-main with MCPFLOW small and 60-tool Bright Data samples
 scripts and reproduction command notes
 ```

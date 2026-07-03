@@ -287,9 +287,10 @@ Generated ParaTool-compatible MCPFLOW sample:
 
 ```text
 ParaTool-main\data\MCPFLOW\brightdata_adapter_candidates.jsonl
+ParaTool-main\data\MCPFLOW\brightdata_observed_tools.jsonl
 ```
 
-Loader validation:
+Small adapter-candidate loader validation:
 
 ```text
 blocks: 10
@@ -311,12 +312,22 @@ brightdata-mcp_scraping_browser_links: 30
 brightdata-mcp_scraping_browser_click: 30
 ```
 
+Full Bright Data observed-tools loader validation:
+
+```text
+blocks: 60
+training_examples: 1455
+min_examples_per_tool: 8
+max_examples_per_tool: 30
+nonempty_tools: 60
+```
+
 Conclusion:
 
 ```text
-ParaTool small-sample data conversion is ready.
+ParaTool small-sample and 60-tool Bright Data data conversion are ready.
 Training has not been started.
-Next step is adapting configs/loaders for dataset=MCPFLOW or using this file as a custom tool_pretraining_data_path.
+Next step is adapting configs/loaders for dataset=MCPFLOW or using these files as custom tool_pretraining_data_path.
 ```
 
 ## 8. Current Research Interpretation
@@ -351,12 +362,12 @@ Implement top20 -> rerank -> top5/top10 prompting.
 GPU:
 
 ```text
-Option A: ParaTool tool_pretraining on 10 Bright Data tools.
-Option B: AgentVocab tokenizer expansion with top_200 reachable structural tokens.
+Option A: ParaTool full 60-tool Bright Data run.
+Option B: AgentVocab tokenizer expansion + stage1/stage2 LoRA with top_200 reachable structural tokens.
 ```
 
 Preferred first GPU run:
 
 ```text
-ParaTool small sample, because current failure mode is tool confusion after retrieval.
+ParaTool 60-tool Bright Data, because current failure mode is tool confusion after retrieval and two A800s make a serious domain reproduction feasible.
 ```

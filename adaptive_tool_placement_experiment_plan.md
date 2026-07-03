@@ -1,432 +1,397 @@
-# Adaptive Tool-Knowledge Placement 实验计划
+# Adaptive Tool-Knowledge Placement Experiment Plan
 
-整理日期：2026-07-03  
-工作目录：`C:\Users\zrz20\Desktop\vscode\Tool`
+Date: 2026-07-04
+Workspace: `C:\Users\zrz20\Desktop\vscode\Tool`
+Repository: `https://github.com/abcabdl/Tool-placement-policy.git`
 
-## 0. 总体策略
+## 0. Current Thesis
 
-先不要复现 ParaTool / AgentVocab / ToolGen 这种重模型或重训练路线。
+Do not start with a learned placement policy.
 
-第一阶段目标不是立刻证明新方法，而是快速判断：
+The more useful research question is:
 
-> **Adaptive Tool-Knowledge Placement 是否真的有信号？**
+> Where should tool knowledge live: context, retrieval memory, reusable templates/vocabulary, or parameters?
 
-也就是：不同任务 / 工具是否真的适合不同 placement。
+The current project should be framed as **tool-knowledge representation selection**, with placement policy as a later decision layer.
 
-第一阶段只做低成本复现和诊断：
-
-1. Retrieval Memory baseline；
-2. Compact Context baseline；
-3. Full Context upper/reference baseline；
-4. Oracle Placement；
-5. 如果有明显 placement heterogeneity，再做 Procedural Skill 和 AdaToolPlace policy。
-
-## 1. 优先级 1：Retrieval Memory Baseline
-
-### 为什么先做
-
-Retrieval Memory 是最大工具池场景的基础，也是所有大规模 tool-use agent 的强 baseline。
-
-如果 retrieval-only 已经很好，placement 的空间会变小。  
-如果 retrieval 经常错工具，adaptive placement 就有意义。
-
-### 数据
-
-优先使用：
-
-- MCP-Flow；
-- ToolBench；
-- ToolRet。
-
-### 做法
-
-1. 解析工具文档。
-2. 为每个工具建立 tool card。
-3. 建立三种 retriever：
-   - BM25；
-   - embedding；
-   - BM25 + embedding hybrid。
-4. 输入 task query。
-5. 检索 top-k tools。
-6. 把 top-k tool cards 放进 prompt。
-7. 让 agent 生成 tool call。
-
-### 第一阶段配置
+The near-term goal is to identify which representation is justified by measurable signals:
 
 ```text
-BM25
-embedding
-BM25 + embedding hybrid
-top-k = 3 / 5 / 10
+Context / compact card       -> cheap, explicit, good for long-tail tools
+Retrieval memory             -> scalable tool-pool coverage
+Template / vocabulary        -> repeated JSON/function-call structures
+Parameter / adapter modules  -> frequent, stable, retrieval-ambiguous tools
 ```
 
-### 指标
+## 1. Main Claims To Test
 
-- tool selection accuracy；
-- argument accuracy；
-- task success；
-- prompt tokens；
-- completion tokens；
-- latency；
-- success / 1K tokens。
+### Claim 1: Compact tool cards are a stronger retrieval representation than full schemas.
 
-## 2. 优先级 2：Compact Context Baseline
-
-### 为什么第二个做
-
-Compact Context 和 Retrieval Memory 对比最直接。它是低成本强 baseline，很可能在工具数量不大时比 retrieval 更稳。
-
-### 做法
-
-把每个工具压缩成统一 tool card：
+Evidence needed:
 
 ```text
-tool_name
-one-line function
-required args
-optional args
-return fields
-one short example
-common failure
+compact BM25 > full-schema BM25 > name/description BM25
 ```
 
-实验两种设置：
-
-1. 所有候选工具都用 compact card；
-2. 只把 retriever 召回的 top-k 工具变成 compact card。
-
-### 需要比较
+Primary metrics:
 
 ```text
-Full Context
-Compact Context
-Retrieval Memory
+MRR
+recall@1 / recall@3 / recall@5 / recall@10
+prompt chars
+gold-in-prompt rate
 ```
 
-### 关键判断
+### Claim 2: Retrieval is the current bottleneck before policy.
 
-如果 Compact Context 接近 Full Context，但 token 大幅降低，则 Compact Context 本身就是强 placement。
-
-### 指标
-
-- tool selection accuracy；
-- argument accuracy；
-- task success；
-- token reduction；
-- context overflow rate；
-- malformed call rate。
-
-## 3. 优先级 3：Oracle Placement
-
-### 为什么关键
-
-Oracle Placement 是 go / no-go gate。
-
-在训练 adaptive policy 前，先离线计算每个 task 的最优 placement：
+Evidence needed:
 
 ```text
-Full Context
-Compact Context
-Retrieval Memory
+top-k increases gold-in-prompt
+but too-large top-k increases candidate confusion and prompt cost
 ```
 
-如果结果是：
+Primary metrics:
 
 ```text
-80% 任务都是同一种 placement 最好
+gold_in_prompt_rate
+tool_accuracy
+argument_exact
+both_exact
+avg_prompt_chars
 ```
 
-那 Adaptive Placement 没必要做。
+### Claim 3: AgentVocab-style structural tokens exist in MCP-Flow traces.
 
-如果结果是：
+Evidence needed:
 
 ```text
-不同任务 / 工具类型最佳 placement 明显不同
+Qwen2.5 tokenizer mining finds repeated structural spans
+reachability filtering keeps useful tokens
+tokens correspond to real function-call skeletons, not noise
 ```
 
-那这个方向成立。
-
-### 做法
-
-对每个 task 跑三套系统：
-
-1. Full Context；
-2. Compact Context；
-3. Retrieval Memory。
-
-记录每个 placement 的：
-
-- success；
-- tool accuracy；
-- argument accuracy；
-- token cost；
-- latency。
-
-然后定义 oracle：
+Primary metrics:
 
 ```text
-oracle(task) = 在满足成功优先、成本次优的条件下选择最佳 placement
+candidate token count
+reachable token count
+estimated token savings
+top token examples
 ```
 
-建议 ranking：
+### Claim 4: ParaTool-style adapter candidates can be selected before training.
 
-1. 成功优先；
-2. 成功相同选 token 更少；
-3. token 相近选 latency 更低；
-4. 都相近选更简单 placement。
-
-### 输出
-
-- 每个 task 的 oracle placement；
-- 每类工具的最佳 placement 分布；
-- oracle vs fixed placement 的上界差距；
-- placement heterogeneity 分析。
-
-## 4. 优先级 4：Procedural Skill Baseline
-
-### 为什么第四个做
-
-Procedural Skill 比前两个复杂，只有当任务里真的存在多步工具流程时才有价值。
-
-太早做容易变成 another memory system。
-
-### 适合任务
-
-多步工具任务，例如：
+Evidence needed:
 
 ```text
-search -> filter -> open -> verify -> summarize
+tools are frequent
+schemas/call templates are stable
+retrieval remains ambiguous
+per-tool training data can be generated
 ```
 
-### 轻量做法
-
-不用完整复现 Skill-Pro。先做 lightweight procedural skill：
-
-1. 从成功轨迹中抽取 tool sequence；
-2. 写成 skill card；
-3. 根据 task similarity 检索 skill；
-4. 注入 prompt。
-
-### Skill card 格式
+Primary metrics:
 
 ```text
-activation condition
-tool sequence
-argument filling rule
-verification step
-failure recovery
-termination condition
+call_count
+top_call_template_share
+compact_recall@10
+parameter_adapter_score
+per-tool training examples
 ```
 
-### 对比
+## 2. Experiment Roadmap
+
+## Stage A: Data And Retrieval Baselines
+
+Status: mostly done, keep as baseline.
+
+Commands:
+
+```powershell
+cd C:\Users\zrz20\Desktop\vscode\Tool
+
+python scripts\parse_mcp_flow_level1.py
+
+python scripts\run_retrieval_baseline.py `
+  --doc-modes name_desc compact full `
+  --out experiments\results_split_tokens
+```
+
+Expected current result:
 
 ```text
-Retrieval Memory only
-Retrieval Memory + Procedural Skill
-Compact Context only
-Compact Context + Procedural Skill
+tools: 1032
+tasks: 1839
+schema coverage: 1839 / 1839
+
+compact MRR: 0.414
+compact recall@5: 0.520
+compact recall@10: 0.594
 ```
 
-### 指标
-
-- multi-step success；
-- tool order accuracy；
-- unnecessary tool-call reduction；
-- failure recovery rate；
-- stale skill error；
-- token cost。
-
-## 5. 优先级 5：AdaToolPlace Policy
-
-### 什么时候做
-
-只有当前四个实验跑出信号后再做。
-
-尤其需要先确认：
+Decision:
 
 ```text
-tool/task features 可以预测最佳 placement
+compact card remains the default retrieval representation.
 ```
 
-### 输入特征
+## Stage B: Representation Signal Diagnosis
+
+Status: done, rerun when data changes.
+
+Command:
+
+```powershell
+python scripts\analyze_representation_signals.py `
+  --retrieval experiments\results_split_tokens\retrieval_predictions.jsonl `
+  --out experiments\representation_signals_split_tokens
+```
+
+Current interpretation:
 
 ```text
-tool frequency
-doc length
-argument complexity
-schema stability
-retrieval ambiguity
-task type
-model size
+observed tools: 82
+catalog-only tools: 950
+vocab/template signal: 81 observed tools
+parameter/adapter signal: 50 observed tools
 ```
 
-### 输出
+Important caveat:
 
 ```text
-Compact Context
-Retrieval Memory
-Procedural Skill
+The observed set is dominated by Bright Data.
+Do not claim all 1032 tools have template/adapter evidence.
 ```
 
-### 模型
+## Stage C: Retrieval Top-k And Template Macro Ablation
 
-先用简单模型：
+Status: done enough for diagnosis, not final.
+
+Key result:
 
 ```text
-decision tree
-logistic regression
-gradient boosting
+top10 retrieval:
+  gold_in_prompt = 0.79
+  both_exact = 0.68
+  avg_prompt_chars = 3332
+
+top10 template_macro:
+  gold_in_prompt = 0.79
+  both_exact = 0.67
+  avg_prompt_chars = 4788
+
+top20 retrieval:
+  gold_in_prompt = 0.89
+  both_exact = 0.69
+  avg_prompt_chars = 5676
 ```
 
-不要一开始用：
-
-- LLM controller；
-- RL；
-- 大模型 fine-tuning。
-
-### 指标
-
-- policy accuracy vs oracle；
-- placement regret；
-- success-cost Pareto；
-- feature importance；
-- generalization to unseen tools。
-
-## 6. 暂时不要先复现的重方法
-
-### 6.1 ParaTool
-
-参数化工具知识，训练成本高。  
-等 placement 方向有信号后，再作为 heavy baseline。
-
-### 6.2 AgentVocab
-
-Tokenizer / vocabulary adaptation 更重，且需要大量 tool-call traces。  
-后期再加。
-
-### 6.3 ToolGen
-
-Tool token 路线也重，不适合作第一阶段。
-
-### 6.4 FTRL / GOAT full training
-
-它们适合提供数据/任务，不适合一开始完整复现训练 pipeline。
-
-## 7. 推荐复现顺序
+Interpretation:
 
 ```text
-R1. MCP-Flow / ToolBench 数据读取 + tool docs 解析
-R2. Retrieval Memory baseline: BM25 / embedding / hybrid
-R3. Compact Context baseline: compressed tool cards
-R4. Full Context baseline: 上界和 token-cost 对照
-R5. Oracle Placement: 每个 task 最优 placement 分布
-R6. Procedural Skill lightweight baseline
-R7. AdaToolPlace: decision tree / GBDT policy
-R8. Schema drift split
-R9. Small-model setting
-R10. ParaTool / AgentVocab 轻量复现或 reported comparison
+Naive prompt-level template_macro is negative.
+Increasing top-k improves recall but causes candidate confusion and high prompt cost.
+Next retrieval work should be retrieve top20 -> rerank -> prompt top5/top10.
 ```
 
-## 8. 第一周目标
-
-第一周只做四件事：
-
-1. 选 50-100 个 MCP-Flow 或 ToolBench tasks。
-2. 跑 Full Context。
-3. 跑 Compact Context。
-4. 跑 Retrieval Memory。
-5. 算 Oracle Placement。
-
-第一周的核心问题只有一个：
-
-> 是否存在明显的 placement heterogeneity？
-
-也就是：
-
-> 不同任务 / 工具是否真的适合不同 placement？
-
-## 9. Go / No-Go Gate
-
-### Go
-
-继续做 AdaToolPlace，如果满足：
-
-- oracle placement 明显优于任一固定 placement；
-- 不同工具类型的最佳 placement 分布不同；
-- compact / retrieval / full context 各自都有优势场景；
-- token-cost 和 success 存在明显 trade-off。
-
-### No-Go
-
-考虑转向 schema drift 或 small-model setting，如果出现：
-
-- 大多数任务同一种 placement 最好；
-- retrieval-only 已经接近 oracle；
-- compact context 始终不掉点且 token 最低；
-- placement 特征无法预测 oracle。
-
-## 10. 后续分支
-
-### 分支 A：Schema Drift
-
-如果普通任务上 heterogeneity 不够明显，构造 schema drift：
-
-- 参数名变化；
-- required field 增加；
-- 返回字段变化；
-- 工具拆分 / 合并；
-- 新工具加入；
-- 旧工具废弃。
-
-检验：
+Next experiment to add:
 
 ```text
-stable tools -> parameter/vocab/compact 更好？
-unstable tools -> context/retrieval 更好？
+Stage C.1: Reranker before prompt
+- candidate pool: BM25 compact top20
+- rerank features: tool name subword match, schema arg match, description match, template similarity
+- prompt only top5/top10
+- compare against raw top10 and raw top20
 ```
 
-### 分支 B：Small Model
+## Stage D: AgentVocab Reproduction Without Training
 
-如果大模型上 placement 差异不明显，换小模型：
+Status: done up to GPU boundary.
 
-- 1.5B；
-- 3B；
-- 7B；
-- 8B。
+Preparation command:
 
-假设：
+```powershell
+python scripts\prepare_agentvocab_paratool_mcpflow.py
+```
 
-> 小模型更依赖合适的 tool knowledge placement。
-
-### 分支 C：Heavy Baselines
-
-只有当方向确认后，再考虑：
-
-- ParaTool；
-- AgentVocab；
-- ToolGen；
-- FTRL / GOAT training。
-
-## 11. 实验记录模板
-
-| Run ID | Placement | Retriever | Top-k | Dataset | Model | Task Count | Success | Tool Acc | Arg Acc | Prompt Tokens | Latency | Notes |
-|---|---|---|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| R001 | Full Context | None | All | MCP-Flow | TBD | 50 | TBD | TBD | TBD | TBD | TBD | sanity |
-| R002 | Compact Context | None | All | MCP-Flow | TBD | 50 | TBD | TBD | TBD | TBD | TBD | compact card |
-| R003 | Retrieval Memory | BM25 | 3 | MCP-Flow | TBD | 50 | TBD | TBD | TBD | TBD | TBD | retrieval |
-| R004 | Retrieval Memory | BM25 | 5 | MCP-Flow | TBD | 50 | TBD | TBD | TBD | TBD | TBD | retrieval |
-| R005 | Retrieval Memory | Hybrid | 5 | MCP-Flow | TBD | 50 | TBD | TBD | TBD | TBD | TBD | retrieval |
-
-## 12. 当前最重要判断
-
-短期不要追求完整系统。
-
-先回答：
+Generated files:
 
 ```text
-Does placement heterogeneity exist?
+AgentVocab-main\outputs\data\mcpflow_structural_spans.txt
+AgentVocab-main\outputs\data\mcpflow_actual_content.jsonl
 ```
 
-如果答案是 yes，再做 AdaToolPlace。
+Structural mining command:
 
-如果答案是 no，及时止损，转向 schema drift 或 small model。
+```powershell
+cd C:\Users\zrz20\Desktop\vscode\Tool\AgentVocab-main
+
+$env:PYTHONPATH="C:\Users\zrz20\Desktop\vscode\Tool\AgentVocab-main\src"
+
+python scripts\mine_structural_tokens.py `
+  --input outputs\data\mcpflow_structural_spans.txt `
+  --tokenizer Qwen/Qwen2.5-7B-Instruct `
+  --output outputs\tokens\mcpflow_structural_scored_qwen25_7b.json `
+  --max-new-tokens 1000 `
+  --min-frequency 5
+```
+
+Reachability command:
+
+```powershell
+python scripts\select_reachable_tokens.py `
+  --scored-tokens outputs\tokens\mcpflow_structural_scored_qwen25_7b.json `
+  --corpus outputs\data\mcpflow_actual_content.jsonl `
+  --tokenizer Qwen/Qwen2.5-7B-Instruct `
+  --output-dir outputs\tokens `
+  --token-type structural `
+  --targets 100 200 400
+```
+
+Current result:
+
+```text
+structural spans: 10884
+unique spans: 807
+candidate structural tokens: 431
+reachable tokens at target 100: 68
+reachable tokens at target 200: 145
+reachable tokens at target 400: 145
+```
+
+Conclusion:
+
+```text
+MCP-Flow has real AgentVocab-style structural token signal.
+Prompt-level template_macro is not a faithful substitute for vocabulary adaptation.
+```
+
+Next GPU-bound step:
+
+```text
+expand tokenizer -> stage1 LoRA -> stage2 LoRA
+```
+
+Recommended first GPU run:
+
+```text
+Use top_200_reachable_structural_tokens.json.
+Run a small Qwen2.5-7B stage2-style tokenizer expansion experiment.
+Use reduced sequence length before attempting official AgentVocab scale.
+```
+
+## Stage E: ParaTool Reproduction Preparation
+
+Status: data conversion done; training not started.
+
+Generated file:
+
+```text
+ParaTool-main\data\MCPFLOW\brightdata_adapter_candidates.jsonl
+```
+
+Current sample:
+
+```text
+10 candidate tools
+297 training examples
+28-30 examples per tool
+```
+
+Candidate tools:
+
+```text
+brightdata-mcp_search_engine
+brightdata-mcp_scraping_browser_screenshot
+brightdata-mcp_scraping_browser_scroll
+brightdata-mcp_scraping_browser_navigate
+brightdata-mcp_extract
+brightdata-mcp_session_stats
+brightdata-mcp_scraping_browser_get_text
+brightdata-mcp_web_data_linkedin_people_search
+brightdata-mcp_scraping_browser_links
+brightdata-mcp_scraping_browser_click
+```
+
+Next reproduction work:
+
+```text
+Stage E.1: Adapt ParaTool loader/configs to accept dataset=MCPFLOW.
+Stage E.2: Run tool_pretraining.py on the 10-tool Bright Data sample.
+Stage E.3: Run soft_tool_selection_train.py as a reranker/gating probe.
+Stage E.4: Decide whether tool_finetuning.py is worth running.
+```
+
+GPU expectation:
+
+```text
+Small 10-tool Qwen2.5-7B LoRA: 1x A100 40GB preferred; 1x RTX 4090 may work with reduced settings.
+Official ParaTool-scale reproduction: 1-4 GPUs depending on model and data scale.
+```
+
+## Stage F: Policy Only After Gates
+
+Do not train AdaToolPlace yet.
+
+A learned policy is justified only if all are true:
+
+```text
+1. reranker improves top20 -> top5/top10 selection
+2. AgentVocab structural tokens reduce real token count after tokenizer expansion
+3. ParaTool adapter/gating improves ambiguous high-frequency tools
+4. oracle placement beats fixed compact retrieval by a meaningful margin
+```
+
+If these gates fail:
+
+```text
+Do not write a policy paper.
+Pivot to retrieval-reranking or structural vocabulary adaptation.
+```
+
+## 3. Immediate Next Steps
+
+### Next CPU task
+
+Implement and evaluate a lightweight reranker:
+
+```text
+BM25 compact top20 -> feature rerank -> prompt top5/top10
+```
+
+This is the most urgent because top20 recall is high but prompt top20 has poor cost-performance.
+
+### Next GPU task
+
+Choose one:
+
+```text
+AgentVocab path:
+  tokenizer expansion with top_200 reachable structural tokens
+
+ParaTool path:
+  tool_pretraining.py on 10 Bright Data adapter candidates
+```
+
+If only one GPU run is available, prefer ParaTool small sample first because it is closer to the current retrieval/tool-confusion bottleneck.
+
+## 4. Repository Notes
+
+The repository has been pushed to:
+
+```text
+https://github.com/abcabdl/Tool-placement-policy.git
+```
+
+The pushed repository includes:
+
+```text
+MCP-Flow raw local checkout as normal files
+parsed MCP-Flow data
+retrieval/function-call experiment results
+AgentVocab-main with MCP-Flow mining outputs
+ParaTool-main with MCPFLOW small sample
+scripts and reproduction command notes
+```
